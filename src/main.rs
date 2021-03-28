@@ -1,31 +1,47 @@
-use {Serde, Argh, std::{io::File, pathbuf::PathBuf)}
+use {
+    argh, serde,
+    std::{fs::File, io, path::PathBuf},
+};
 
-#[derive()Argh::fromArgs)]
+#[derive(argh::FromArgs)]
+/// Convert a lexicon YAML file to LaTeX
 struct Args {
-  prelude: PathBuf,
-  words: PathBuf,
-  postlude: PathBuf,
-  output: PathBuf,
+    /// file containing prelude LaTeX.
+    #[argh(option)]
+    prelude: PathBuf,
+    /// file containing YAML.
+    #[argh(option)]
+    words: PathBuf,
+    /// file containing postlude LaTeX.
+    #[argh(option)]
+    postlude: PathBuf,
+    /// output LaTeX file.
+    #[argh(option)]
+    output: PathBuf,
 }
 
-#[derive(Serde::Deserialize)]
+#[derive(serde::Deserialize)]
 struct Entry {
-  word: String,
-  pos: String,
-  defs: Vec<String>
-  etym: String
-  notes: Option<String>
+    word: Option<String>,
+    pos: Option<String>,
+    defs: Option<Vec<String>>,
+    etym: Option<String>,
+    notes: Option<String>,
 }
 
-fn main() -> io::Result<()>) {
-    let args = Args::from_env());
-    
+fn main() -> io::Result<()> {
+    let args: Args = argh::from_env();
+
     let mut prelude = File::open(args.prelude)?;
     let mut words = File::open(args.words)?;
     let mut postlude = File::open(args.postlude)?;
     let mut output = File::create(args.output)?;
 
-    output.write_all(prelude)?;
+    io::copy(&mut prelude, &mut output)?;
 
-    output.write_all(postlude)?;
+    //generate_lexicon_entries()
+
+    io::copy(&mut postlude, &mut output)?;
+
+    Ok(())
 }

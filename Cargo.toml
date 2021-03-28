@@ -8,4 +8,5 @@ edition = "2018"
 
 [dependencies]
 argh = "0.1.4"
-serde = "1.0.124"
+serde = { version = "1.0.125", features = ["derive"] } 
+serde_yaml = "0.8.17"
