@@ -20,13 +20,24 @@ struct Args {
     output: PathBuf,
 }
 
-#[derive(serde::Deserialize)]
+#[derive(serde::Deserialize, Debug)]
 struct Entry {
     word: Option<String>,
     pos: Option<String>,
     defs: Option<Vec<String>>,
     etym: Option<String>,
     notes: Option<String>,
+}
+
+impl Entry {
+    fn is_complete(&self) -> bool {
+        self.word.is_some()
+            && self.pos.is_some()
+            && self.defs.is_some()
+            && !self.defs.as_ref().unwrap().is_empty()
+            && self.etym.is_some()
+            // Notes is not a necessary field.
+    }
 }
 
 fn main() -> io::Result<()> {
