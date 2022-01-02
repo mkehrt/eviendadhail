@@ -1,6 +1,6 @@
 use {
     argh, serde, serde_yaml, std::cmp::Ordering, std::collections::HashMap, std::fs::File, std::io,
-    std::io::Read as _, std::path::PathBuf, std::str::FromStr,
+    std::io::Read as _, std::path::PathBuf, std::str::FromStr, std::fmt
 };
 
 #[derive(argh::FromArgs)]
@@ -18,6 +18,31 @@ struct Args {
     /// output LaTeX file.
     #[argh(option)]
     output: PathBuf,
+}
+
+#[derive(Debug)]
+enum LexiconError {
+    SerdeYaml(serde_yaml::Error),
+    IncompleteEntry(Entry),
+    IoError(io::Error),
+}
+
+impl From<serde_yaml::Error> for LexiconError {
+    fn from(err: serde_yaml::Error) -> Self {
+        Self::SerdeYaml(err)
+    }
+}
+
+impl From<Entry> for LexiconError {
+    fn from(entry: Entry) -> Self {
+        Self::IncompleteEntry(entry)
+    }
+}
+
+impl From<io::Error> for LexiconError {
+    fn from(err: io::Error) -> Self{
+        Self::IoError(err)
+    }
 }
 
 #[derive(serde::Deserialize, Debug, Eq, Ord, PartialEq)]
@@ -54,6 +79,26 @@ impl PartialOrd for Entry {
     }
 }
 
+impl fmt::Display for Entry {
+    fn fmt(&self, f: &mut fmt::Formatter<'_>) -> fmt::Result {
+        assert!(self.is_complete());
+
+        write!(f, "\\entry{{{:}}}{{{:}}}{{\n", self.word.unwrap(), self.pos.unwrap())?;
+        
+        let defs = self.defs.unwrap();
+        if defs.len() == 1 {
+                write!(f, "{{{:}}}", defs[0])?;
+        } else {
+            for (i, def) in defs.iter().enumerate() {
+                write!(f, "\\textbf{{{:}.}} {{{:}}}", i, def)?;
+            }
+        }
+
+        write!(f, "}}");
+        Ok(())
+    }
+}
+
 #[derive(Eq, Ord, PartialEq)]
 struct Section {
     heading: char,
@@ -73,27 +118,19 @@ impl PartialOrd for Section {
     }
 }
 
-enum ParseSectionsError {
-    SerdeYaml(serde_yaml::Error),
-    IncompleteEntry(Entry),
-}
-
-impl From<serde_yaml::Error> for ParseSectionsError {
-    fn from(err: serde_yaml::Error) -> Self {
-        Self::SerdeYaml(err)
+impl fmt::Display for Section {
+    fn fmt(&self, f: &mut fmt::Formatter<'_>) -> fmt::Result {
+        write!(f, "\\section*{{{:}}}\n", self.heading)?;
+        for entry in self.entries {
+            write!(f, "{:}", entry)?;
+        }
+        Ok(())
     }
 }
-
-impl From<Entry> for ParseSectionsError {
-    fn from(entry: Entry) -> Self {
-        Self::IncompleteEntry(entry)
-    }
-}
-
 struct Sections(Vec<Section>);
 
 impl FromStr for Sections {
-    type Err = ParseSectionsError;
+    type Err = LexiconError;
 
     fn from_str(str: &str) -> Result<Self, Self::Err> {
         let entries: Vec<Entry> = serde_yaml::from_str(str)?;
@@ -119,7 +156,16 @@ impl FromStr for Sections {
     }
 }
 
-fn main() -> io::Result<()> {
+impl fmt::Display for Sections {
+    fn fmt(&self, f: &mut fmt::Formatter<'_>) -> fmt::Result {
+        for section in self.0 {
+            write!(f, "{:}", section)?;
+        }
+        Ok(())
+    }
+}
+
+fn main() -> Result<(), LexiconError> {
     let args: Args = argh::from_env();
 
     let mut prelude_file = File::open(args.prelude)?;
@@ -129,7 +175,7 @@ fn main() -> io::Result<()> {
 
     let mut words = String::new();
     words_file.read_to_string(&mut words)?;
-    let sections = Sections::from_str(words.as_str());
+    let sections = Sections::from_str(words.as_str())?;
 
     io::copy(&mut prelude_file, &mut output_file)?;
     write!(output_file, "{:}", sections)?;
