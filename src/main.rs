@@ -1,6 +1,6 @@
 use {
     argh, serde, serde_yaml, std::cmp::Ordering, std::collections::HashMap, std::fmt,
-    std::fs::File, std::io, std::io::Read as _, std::path::PathBuf, std::str::FromStr,
+    std::fs::File, std::io, std::io::Read as _, std::io::Write as _, std::path::PathBuf, std::str::FromStr,
 };
 
 #[derive(argh::FromArgs)]
@@ -57,7 +57,7 @@ struct Entry {
 impl Entry {
     pub fn is_complete(&self) -> bool {
         self.word.is_some()
-            && self.word.unwrap().len() > 0
+            && self.word.as_ref().unwrap().len() > 0
             && self.pos.is_some()
             && self.defs.is_some()
             && !self.defs.as_ref().unwrap().is_empty()
@@ -66,13 +66,13 @@ impl Entry {
     }
 
     pub fn heading(&self) -> char {
-        self.pos.unwrap().chars().collect::<Vec<_>>()[0]
+        self.pos.as_ref().unwrap().chars().collect::<Vec<_>>()[0]
     }
 }
 
 impl PartialOrd for Entry {
     fn partial_cmp(&self, other: &Self) -> Option<Ordering> {
-        match (self.word, other.word) {
+        match (&self.word, &other.word) {
             (Some(self_word), Some(other_word)) => self_word.partial_cmp(&other_word),
             _ => None,
         }
@@ -86,11 +86,11 @@ impl fmt::Display for Entry {
         write!(
             f,
             "\\entry{{{:}}}{{{:}}}{{\n",
-            self.word.unwrap(),
-            self.pos.unwrap()
+            self.word.as_ref().unwrap(),
+            self.pos.as_ref().unwrap()
         )?;
 
-        let defs = self.defs.unwrap();
+        let defs = self.defs.as_ref().unwrap();
         if defs.len() == 1 {
             write!(f, "{{{:}}}", defs[0])?;
         } else {
@@ -99,7 +99,7 @@ impl fmt::Display for Entry {
             }
         }
 
-        write!(f, "}}");
+        write!(f, "}}")?;
         Ok(())
     }
 }
@@ -111,7 +111,7 @@ struct Section {
 }
 
 impl Section {
-    fn new(heading: char, entries: Vec<Entry>) -> Self {
+    fn new(heading: char, mut entries: Vec<Entry>) -> Self {
         entries.sort();
         Self { heading, entries }
     }
@@ -126,7 +126,7 @@ impl PartialOrd for Section {
 impl fmt::Display for Section {
     fn fmt(&self, f: &mut fmt::Formatter<'_>) -> fmt::Result {
         write!(f, "\\section*{{{:}}}\n", self.heading)?;
-        for entry in self.entries {
+        for entry in self.entries.iter() {
             write!(f, "{:}", entry)?;
         }
         Ok(())
@@ -139,12 +139,12 @@ impl FromStr for Sections {
 
     fn from_str(str: &str) -> Result<Self, Self::Err> {
         let entries: Vec<Entry> = serde_yaml::from_str(str)?;
-        let entries_by_heading: HashMap<char, Vec<Entry>> = HashMap::new();
+        let mut entries_by_heading: HashMap<char, Vec<Entry>> = HashMap::new();
         for entry in entries {
             if entry.is_complete() {
                 let heading = entry.heading();
-                let mut entries = entries_by_heading.entry(heading).or_insert(Vec::new());
-                entries.push(entry);
+                let entries_for_heading = entries_by_heading.entry(heading).or_insert(Vec::new());
+                entries_for_heading.push(entry);
             } else {
                 Err(entry)?;
             }
@@ -163,7 +163,7 @@ impl FromStr for Sections {
 
 impl fmt::Display for Sections {
     fn fmt(&self, f: &mut fmt::Formatter<'_>) -> fmt::Result {
-        for section in self.0 {
+        for section in &self.0 {
             write!(f, "{:}", section)?;
         }
         Ok(())
