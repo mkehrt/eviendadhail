@@ -1,6 +1,6 @@
 use {
-    argh, serde,
-    std::{fs::File, io, path::PathBuf},
+    argh, serde, serde_yaml, std::cmp::Ordering, std::collections::HashMap, std::fs::File, std::io,
+    std::io::Read as _, std::path::PathBuf, std::str::FromStr,
 };
 
 #[derive(argh::FromArgs)]
@@ -20,7 +20,7 @@ struct Args {
     output: PathBuf,
 }
 
-#[derive(serde::Deserialize, Debug)]
+#[derive(serde::Deserialize, Debug, Eq, Ord, PartialEq)]
 struct Entry {
     word: Option<String>,
     pos: Option<String>,
@@ -30,29 +30,110 @@ struct Entry {
 }
 
 impl Entry {
-    fn is_complete(&self) -> bool {
+    pub fn is_complete(&self) -> bool {
         self.word.is_some()
+            && self.word.unwrap().len() > 0
             && self.pos.is_some()
             && self.defs.is_some()
             && !self.defs.as_ref().unwrap().is_empty()
-            && self.etym.is_some()
-            // Notes is not a necessary field.
+        // Etym is not a necessary field.
+        // Notes is not a necessary field.
+    }
+
+    pub fn heading(&self) -> char {
+        self.pos.unwrap().chars().collect::<Vec<_>>()[0]
+    }
+}
+
+impl PartialOrd for Entry {
+    fn partial_cmp(&self, other: &Self) -> Option<Ordering> {
+        match (self.word, other.word) {
+            (Some(self_word), Some(other_word)) => self_word.partial_cmp(&other_word),
+            _ => None,
+        }
+    }
+}
+
+#[derive(Eq, Ord, PartialEq)]
+struct Section {
+    heading: char,
+    entries: Vec<Entry>,
+}
+
+impl Section {
+    fn new(heading: char, entries: Vec<Entry>) -> Self {
+        entries.sort();
+        Self { heading, entries }
+    }
+}
+
+impl PartialOrd for Section {
+    fn partial_cmp(&self, other: &Self) -> Option<Ordering> {
+        self.heading.partial_cmp(&other.heading)
+    }
+}
+
+enum ParseSectionsError {
+    SerdeYaml(serde_yaml::Error),
+    IncompleteEntry(Entry),
+}
+
+impl From<serde_yaml::Error> for ParseSectionsError {
+    fn from(err: serde_yaml::Error) -> Self {
+        Self::SerdeYaml(err)
+    }
+}
+
+impl From<Entry> for ParseSectionsError {
+    fn from(entry: Entry) -> Self {
+        Self::IncompleteEntry(entry)
+    }
+}
+
+struct Sections(Vec<Section>);
+
+impl FromStr for Sections {
+    type Err = ParseSectionsError;
+
+    fn from_str(str: &str) -> Result<Self, Self::Err> {
+        let entries: Vec<Entry> = serde_yaml::from_str(str)?;
+        let entries_by_heading: HashMap<char, Vec<Entry>> = HashMap::new();
+        for entry in entries {
+            if entry.is_complete() {
+                let heading = entry.heading();
+                let mut entries = entries_by_heading.entry(heading).or_insert(Vec::new());
+                entries.push(entry);
+            } else {
+                Err(entry)?;
+            }
+        }
+
+        let mut sections = Vec::new();
+        for (heading, entries) in entries_by_heading.into_iter() {
+            let section = Section::new(heading, entries);
+            sections.push(section);
+        }
+        sections.sort();
+
+        Ok(Sections(sections))
     }
 }
 
 fn main() -> io::Result<()> {
     let args: Args = argh::from_env();
 
-    let mut prelude = File::open(args.prelude)?;
-    let mut words = File::open(args.words)?;
-    let mut postlude = File::open(args.postlude)?;
-    let mut output = File::create(args.output)?;
+    let mut prelude_file = File::open(args.prelude)?;
+    let mut words_file = File::open(args.words)?;
+    let mut postlude_file = File::open(args.postlude)?;
+    let mut output_file = File::create(args.output)?;
 
-    io::copy(&mut prelude, &mut output)?;
+    let mut words = String::new();
+    words_file.read_to_string(&mut words)?;
+    let sections = Sections::from_str(words.as_str());
 
-    //generate_lexicon_entries()
-
-    io::copy(&mut postlude, &mut output)?;
+    io::copy(&mut prelude_file, &mut output_file)?;
+    write!(output_file, "{:}", sections)?;
+    io::copy(&mut postlude_file, &mut output_file)?;
 
     Ok(())
 }
