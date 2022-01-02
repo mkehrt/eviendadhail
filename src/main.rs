@@ -1,6 +1,6 @@
 use {
-    argh, serde, serde_yaml, std::cmp::Ordering, std::collections::HashMap, std::fs::File, std::io,
-    std::io::Read as _, std::path::PathBuf, std::str::FromStr, std::fmt
+    argh, serde, serde_yaml, std::cmp::Ordering, std::collections::HashMap, std::fmt,
+    std::fs::File, std::io, std::io::Read as _, std::path::PathBuf, std::str::FromStr,
 };
 
 #[derive(argh::FromArgs)]
@@ -40,7 +40,7 @@ impl From<Entry> for LexiconError {
 }
 
 impl From<io::Error> for LexiconError {
-    fn from(err: io::Error) -> Self{
+    fn from(err: io::Error) -> Self {
         Self::IoError(err)
     }
 }
@@ -83,11 +83,16 @@ impl fmt::Display for Entry {
     fn fmt(&self, f: &mut fmt::Formatter<'_>) -> fmt::Result {
         assert!(self.is_complete());
 
-        write!(f, "\\entry{{{:}}}{{{:}}}{{\n", self.word.unwrap(), self.pos.unwrap())?;
-        
+        write!(
+            f,
+            "\\entry{{{:}}}{{{:}}}{{\n",
+            self.word.unwrap(),
+            self.pos.unwrap()
+        )?;
+
         let defs = self.defs.unwrap();
         if defs.len() == 1 {
-                write!(f, "{{{:}}}", defs[0])?;
+            write!(f, "{{{:}}}", defs[0])?;
         } else {
             for (i, def) in defs.iter().enumerate() {
                 write!(f, "\\textbf{{{:}.}} {{{:}}}", i, def)?;
