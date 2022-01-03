@@ -120,54 +120,143 @@
 - word: aram 	
   pos: n.
   def: Ground, earth
-arasu
-arasú 	v. 	to attack
-ardhol
-arondú
-athá 	conj. 	because
-bé- 	prep. 	for, for the purpose of
-caer
-cisceth 	n. 	window
-dan
-elend
-em- 	prep. 	with
-erath 	conj. 	therefore
-hwená
-í 	conj. 	and
-il
-is- 	prep. 	through
-láná
-lelú 	v. 	to hide
-lisú
-mánú 	v. 	to ead
-me. 	adv. 	not
-mean 	adj. 	a lot, many
-mean much
-meleth
-methú 	v. 	to play
-methú play
-nel
-noém 	n. 	(internal) organ, piece of the body (regloss as mind??)
-pelá 	n. 	skin
-pelan story
-radhú 	v. 	to tear, to rip
-ravas evil?
-sau but
-sé- 	prep 	possessive
-selú 	v. 	to search
-senú 	v. 	to need, often used as an auxilliary
-tapesú to spit
-tasá 	n. 	tragedy, disaster
-té- 	prep. 	to, towards
-telú 	v. 	to ask
-telú to ask
-téris
-teselú 	v. 	to want
-tesu to do
-tíel
-to hit
-tw- 	pn. 	what (used in questions) (listed as twó?)
-yes 	v. 	to see
-yû
-yú 	v. 	to know
 
+- word: aras
+  pos: v.
+  def: to fight
+
+- word: ardh\'ol
+  pos: n.
+  def: The sun
+
+- word: aron(d)
+  pos: v.
+  def: To worship
+
+- word: atha
+  pos: conj. 
+  def: because
+
+- word: bé-
+  pos: p.a.
+  def: for, for the purpose of
+
+- word: caer
+  pos: adj.
+  def: strong
+
+- word: cisceth
+  pos: n.
+  def: window
+
+- word: dan
+  pos: n.
+  def: person
+
+- word: elen(d)
+  pos: adj.
+  def: beautiful
+
+- word: em-
+  pos: p.a.
+  def: with
+
+- word: erath
+  pos: conj.
+  def: therefore
+
+- word: hena
+  pos: n.
+  def: woman
+
+- word: i
+  pos: conj.
+  def: and
+
+- word: il
+  pos: n.
+  def: king
+
+- word: is-
+  pos: a.p.
+  ded: through
+
+- word: l\a'na
+  pos: n.
+  def: the moon
+
+- word: lel
+  pos: v.
+  def: to hide
+
+- word: lis
+  pos: v.
+  def: to sing
+
+- word: mán
+  pos: v.
+  def: to eat
+
+- word: me
+  pos: adj.
+  def: no, not, none
+  notes: Obvs greek
+
+- word: mean
+  pos: adj.
+  def: a lot, many
+
+- word: meleth
+  pos: adj.
+  def: happy
+
+- word: meth
+  pos: v.
+  def: to play
+
+- word: nel
+  pos: n.
+  def: child
+
+- word: noém
+  pos: n.
+  def: internal organ, piece of the body
+
+- word: pela
+  pos: n.
+  def: skin
+
+- word: pelan
+  pos: n.
+  def: story
+
+- word: radh 
+  pos: v.
+  def: to tear, to rip
+
+- word: ravas
+  pos: n.
+  def: evil, vad
+
+- word: sau
+  pos: conj.
+  def: but
+
+- word: sé-
+  pos: a.p.
+  def: alienable possessive
+
+#selú 	v. 	to search
+#senú 	v. 	to need, often used as an auxilliary
+#tapesú to spit
+#tasá 	n. 	tragedy, disaster
+#té- 	prep. 	to, towards
+#telú 	v. 	to ask
+#telú to ask
+#téris
+#teselú 	v. 	to want
+#tesu to do
+#tíel
+#yes 	v. 	to see
+#yú 	v. 	to know
+#
