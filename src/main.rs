@@ -1,8 +1,11 @@
 use {
-    argh, serde, serde_yaml, std::cmp::Ordering, std::collections::HashMap, std::fmt,
-    std::fs::File, std::io, std::io::Read as _, std::io::Write as _, std::path::PathBuf,
-    std::str::FromStr,
+    argh,
+    std::fs::File, std::io, std::io::Write as _, std::path::PathBuf,
 };
+
+mod error;
+mod serde;
+mod types;
 
 #[derive(argh::FromArgs)]
 /// Convert a lexicon YAML file to LaTeX
@@ -21,165 +24,14 @@ struct Args {
     output: PathBuf,
 }
 
-#[derive(Debug)]
-enum LexiconError {
-    SerdeYaml(serde_yaml::Error),
-    IncompleteEntry(Entry),
-    IoError(io::Error),
-}
-
-impl From<serde_yaml::Error> for LexiconError {
-    fn from(err: serde_yaml::Error) -> Self {
-        Self::SerdeYaml(err)
+fn report_invalid_entries(entries: &Vec<serde::Entry>) {
+    eprintln!("The following lexicon entries were not complete and could not be output:");
+    for entry in entries {
+        eprintln!("{:?}", entry);
     }
 }
 
-impl From<Entry> for LexiconError {
-    fn from(entry: Entry) -> Self {
-        Self::IncompleteEntry(entry)
-    }
-}
-
-impl From<io::Error> for LexiconError {
-    fn from(err: io::Error) -> Self {
-        Self::IoError(err)
-    }
-}
-
-#[derive(serde::Deserialize, Debug, Eq, Ord, PartialEq)]
-struct Entry {
-    word: Option<String>,
-    pos: Option<String>,
-    defs: Option<Vec<String>>,
-    etym: Option<String>,
-    notes: Option<String>,
-}
-
-impl Entry {
-    pub fn is_complete(&self) -> bool {
-        self.word.is_some()
-            && self.word.as_ref().unwrap().len() > 0
-            && self.pos.is_some()
-            && self.defs.is_some()
-            && !self.defs.as_ref().unwrap().is_empty()
-        // Etym is not a necessary field.
-        // Notes is not a necessary field.
-    }
-
-    pub fn heading(&self) -> String {
-        assert!(self.is_complete());
-        self.word
-            .as_ref()
-            .unwrap()
-            .chars()
-            .next()
-            .unwrap()
-            .to_uppercase()
-            .to_string()
-    }
-}
-
-impl PartialOrd for Entry {
-    fn partial_cmp(&self, other: &Self) -> Option<Ordering> {
-        match (&self.word, &other.word) {
-            (Some(self_word), Some(other_word)) => self_word.partial_cmp(&other_word),
-            _ => None,
-        }
-    }
-}
-
-impl fmt::Display for Entry {
-    fn fmt(&self, f: &mut fmt::Formatter<'_>) -> fmt::Result {
-        assert!(self.is_complete());
-
-        write!(
-            f,
-            "\\entry{{{:}}}{{{:}}}{{",
-            self.word.as_ref().unwrap(),
-            self.pos.as_ref().unwrap()
-        )?;
-
-        let defs = self.defs.as_ref().unwrap();
-        if defs.len() == 1 {
-            write!(f, "{:}", defs[0])?;
-        } else {
-            for (i, def) in defs.iter().enumerate() {
-                write!(f, "\\textbf{{{:}.}} {:}", i + 1, def)?;
-            }
-        }
-
-        write!(f, "}}\n")?;
-        Ok(())
-    }
-}
-
-#[derive(Eq, Ord, PartialEq)]
-struct Section {
-    heading: String,
-    entries: Vec<Entry>,
-}
-
-impl Section {
-    fn new(heading: String, mut entries: Vec<Entry>) -> Self {
-        entries.sort();
-        Self { heading, entries }
-    }
-}
-
-impl PartialOrd for Section {
-    fn partial_cmp(&self, other: &Self) -> Option<Ordering> {
-        self.heading.partial_cmp(&other.heading)
-    }
-}
-
-impl fmt::Display for Section {
-    fn fmt(&self, f: &mut fmt::Formatter<'_>) -> fmt::Result {
-        write!(f, "\\section*{{{:}}}\n", self.heading)?;
-        for entry in self.entries.iter() {
-            write!(f, "{:}", entry)?;
-        }
-        Ok(())
-    }
-}
-struct Sections(Vec<Section>);
-
-impl FromStr for Sections {
-    type Err = LexiconError;
-
-    fn from_str(str: &str) -> Result<Self, Self::Err> {
-        let entries: Vec<Entry> = serde_yaml::from_str(str)?;
-        let mut entries_by_heading: HashMap<String, Vec<Entry>> = HashMap::new();
-        for entry in entries {
-            if entry.is_complete() {
-                let heading = entry.heading();
-                let entries_for_heading = entries_by_heading.entry(heading).or_insert(Vec::new());
-                entries_for_heading.push(entry);
-            } else {
-                Err(entry)?;
-            }
-        }
-
-        let mut sections = Vec::new();
-        for (heading, entries) in entries_by_heading.into_iter() {
-            let section = Section::new(heading, entries);
-            sections.push(section);
-        }
-        sections.sort();
-
-        Ok(Sections(sections))
-    }
-}
-
-impl fmt::Display for Sections {
-    fn fmt(&self, f: &mut fmt::Formatter<'_>) -> fmt::Result {
-        for section in &self.0 {
-            write!(f, "{:}", section)?;
-        }
-        Ok(())
-    }
-}
-
-fn main() -> Result<(), LexiconError> {
+fn main() -> Result<(), error::LexiconError> {
     let args: Args = argh::from_env();
 
     let mut prelude_file = File::open(args.prelude)?;
@@ -187,9 +39,10 @@ fn main() -> Result<(), LexiconError> {
     let mut postlude_file = File::open(args.postlude)?;
     let mut output_file = File::create(args.output)?;
 
-    let mut words = String::new();
-    words_file.read_to_string(&mut words)?;
-    let sections = Sections::from_str(words.as_str())?;
+    let entries = serde::entries_from_reader(&mut words_file)?;
+    let sections = types::Sections::new_from_entries(entries.valid);
+
+    report_invalid_entries(&entries.invalid);
 
     io::copy(&mut prelude_file, &mut output_file)?;
     write!(output_file, "{:}", sections)?;
