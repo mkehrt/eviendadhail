@@ -1,11 +1,10 @@
 use {
     argh,
     std::fs::File, std::io, std::io::Write as _, std::path::PathBuf,
+    lexicon::error,
+    lexicon::serde,
+    lexicon::types,
 };
-
-mod error;
-mod serde;
-mod types;
 
 #[derive(argh::FromArgs)]
 /// Convert a lexicon YAML file to LaTeX

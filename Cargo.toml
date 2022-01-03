@@ -1,10 +1,20 @@
 [package]
 name = "eviendadhail"
-version = "1.0.0"
+version = "1.1.0"
 authors = ["Matthew Kehrt <mkehrt@roseandsigil.net>"]
 edition = "2018"
 
-# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+[lib]
+name = "lexicon"
+path = "src/lib/lib.rs"
+
+[[bin]]
+name = "convert"
+path = "src/convert/main.rs"
+
+[[bin]]
+name = "format"
+path = "src/format/main.rs"
 
 [dependencies]
 argh = "0.1.4"
