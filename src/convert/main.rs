@@ -30,15 +30,16 @@ fn report_invalid_entries(entries: &Vec<serde::Entry>) {
 fn main() -> Result<(), error::LexiconError> {
     let args: Args = argh::from_env();
 
-    let mut prelude_file = File::open(args.prelude)?;
     let mut words_file = File::open(args.words)?;
-    let mut postlude_file = File::open(args.postlude)?;
-    let mut output_file = File::create(args.output)?;
 
     let entries = serde::entries_from_reader(&mut words_file)?;
     let sections = types::Sections::new_from_entries(entries.valid);
 
     report_invalid_entries(&entries.invalid);
+
+    let mut prelude_file = File::open(args.prelude)?;
+    let mut postlude_file = File::open(args.postlude)?;
+    let mut output_file = File::create(args.output)?;
 
     io::copy(&mut prelude_file, &mut output_file)?;
     write!(output_file, "{:}", sections)?;
