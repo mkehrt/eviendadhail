@@ -1,6 +1,7 @@
 use {
     argh, serde, serde_yaml, std::cmp::Ordering, std::collections::HashMap, std::fmt,
-    std::fs::File, std::io, std::io::Read as _, std::io::Write as _, std::path::PathBuf, std::str::FromStr,
+    std::fs::File, std::io, std::io::Read as _, std::io::Write as _, std::path::PathBuf,
+    std::str::FromStr,
 };
 
 #[derive(argh::FromArgs)]
@@ -65,8 +66,16 @@ impl Entry {
         // Notes is not a necessary field.
     }
 
-    pub fn heading(&self) -> char {
-        self.pos.as_ref().unwrap().chars().collect::<Vec<_>>()[0]
+    pub fn heading(&self) -> String {
+        assert!(self.is_complete());
+        self.word
+            .as_ref()
+            .unwrap()
+            .chars()
+            .next()
+            .unwrap()
+            .to_uppercase()
+            .to_string()
     }
 }
 
@@ -85,33 +94,33 @@ impl fmt::Display for Entry {
 
         write!(
             f,
-            "\\entry{{{:}}}{{{:}}}{{\n",
+            "\\entry{{{:}}}{{{:}}}{{",
             self.word.as_ref().unwrap(),
             self.pos.as_ref().unwrap()
         )?;
 
         let defs = self.defs.as_ref().unwrap();
         if defs.len() == 1 {
-            write!(f, "{{{:}}}", defs[0])?;
+            write!(f, "{:}", defs[0])?;
         } else {
             for (i, def) in defs.iter().enumerate() {
-                write!(f, "\\textbf{{{:}.}} {{{:}}}", i, def)?;
+                write!(f, "\\textbf{{{:}.}} {:}", i + 1, def)?;
             }
         }
 
-        write!(f, "}}")?;
+        write!(f, "}}\n")?;
         Ok(())
     }
 }
 
 #[derive(Eq, Ord, PartialEq)]
 struct Section {
-    heading: char,
+    heading: String,
     entries: Vec<Entry>,
 }
 
 impl Section {
-    fn new(heading: char, mut entries: Vec<Entry>) -> Self {
+    fn new(heading: String, mut entries: Vec<Entry>) -> Self {
         entries.sort();
         Self { heading, entries }
     }
@@ -139,7 +148,7 @@ impl FromStr for Sections {
 
     fn from_str(str: &str) -> Result<Self, Self::Err> {
         let entries: Vec<Entry> = serde_yaml::from_str(str)?;
-        let mut entries_by_heading: HashMap<char, Vec<Entry>> = HashMap::new();
+        let mut entries_by_heading: HashMap<String, Vec<Entry>> = HashMap::new();
         for entry in entries {
             if entry.is_complete() {
                 let heading = entry.heading();

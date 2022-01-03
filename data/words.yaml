@@ -17,7 +17,7 @@
     - The entire universe
   etym: AiS
 
-- word: AiS
+- word: ais
   pos: adj.
   defs:
     - All
@@ -47,13 +47,12 @@
     - Star
   etym: CWTh
 
-- word: EL
+- word: el
   pos: v.
   defs: 
     - To be
     - copula
   etym: EL
-
 
 - word: er\'os
   pos: n.
@@ -75,7 +74,8 @@
 
 - word: gan
   pos: n.
-  defs: Jewel
+  defs: 
+    - Jewel
   etym: GYN
 
 - word: gen
