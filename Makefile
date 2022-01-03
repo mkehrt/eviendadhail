@@ -12,7 +12,7 @@ out/lexicon.tex: src/lib/* src/convert/* in/* out
   	--prelude in/prelude.tex \
   	--words in/words.yaml \
   	--postlude in/postlude.tex \
-  	--output in/lexicon.tex
+  	--output out/lexicon.tex
 
 out:
 	mkdir out

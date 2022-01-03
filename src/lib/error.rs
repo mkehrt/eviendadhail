@@ -1,14 +1,11 @@
-use {
-    crate::types::Entry,
-    serde_yaml,
-    std::io,
-};
+use {crate::serde, crate::types, serde_yaml, std::io};
 
 #[derive(Debug)]
 pub enum LexiconError {
     SerdeYaml(serde_yaml::Error),
-    IncompleteEntry(Entry),
+    IncompleteEntry(types::Entry),
     IoError(io::Error),
+    InvalidAscii(serde::Entry),
 }
 
 impl From<serde_yaml::Error> for LexiconError {
@@ -17,8 +14,8 @@ impl From<serde_yaml::Error> for LexiconError {
     }
 }
 
-impl From<Entry> for LexiconError {
-    fn from(entry: Entry) -> Self {
+impl From<types::Entry> for LexiconError {
+    fn from(entry: types::Entry) -> Self {
         Self::IncompleteEntry(entry)
     }
 }

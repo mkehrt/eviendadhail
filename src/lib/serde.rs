@@ -1,15 +1,10 @@
 use {
-    serde, serde_yaml, 
-    std::cmp::PartialOrd,
-    std::cmp::Ord,
-    std::cmp::Ordering,
-    std::io,
-    crate::error,
-    crate::types,
+    crate::error, crate::types, serde, serde_yaml, std::cmp::Ord, std::cmp::Ordering,
+    std::cmp::PartialOrd, std::io,
 };
 
 #[allow(unused)]
-#[derive(Debug, Eq, Ord, PartialEq, serde::Deserialize, serde::Serialize)]
+#[derive(Clone, Debug, Eq, Ord, PartialEq, serde::Deserialize, serde::Serialize)]
 pub struct Entry {
     word: Option<String>,
     pos: Option<String>,
@@ -27,8 +22,8 @@ impl Entry {
         let one_is_some = (def.is_some() && !defs.is_some()) || (!def.is_some() && defs.is_some());
         let def_is_valid = def.is_some();
         let defs_is_valid = defs.is_some() && defs.as_ref().unwrap().len() > 0;
-        
-        one_is_some && (def_is_valid || defs_is_valid) 
+
+        one_is_some && (def_is_valid || defs_is_valid)
     }
 
     pub fn is_valid(&self) -> bool {
@@ -55,19 +50,38 @@ impl Entry {
 
         types::Entry::new(word, pos, defs)
     }
+
+    fn all_visible_fields<F: Fn(&String) -> bool>(&self, f: &F) -> bool {
+        self.word.as_ref().map_or(true, f)
+            && self.pos.as_ref().map_or(true, f)
+            && self.def.as_ref().map_or(true, f)
+            && self.defs.as_ref().map_or(true, |v| v.iter().all(|s| f(s)))
+            && self.etym.as_ref().map_or(true, f)
+    }
+
+    pub fn is_ascii(&self) -> bool {
+        self.all_visible_fields(&|string| string.chars().all(|c| char::is_ascii(&c)))
+    }
 }
 
 impl PartialOrd for Entry {
     fn partial_cmp(&self, other: &Self) -> Option<Ordering> {
         match (&self.word, &other.word) {
             (Some(self_word), Some(other_word)) => self_word.partial_cmp(other_word),
-            (_, _) => None
+            (_, _) => None,
         }
     }
 }
 
-pub fn serde_entries_from_reader<R: io::Read>(reader: &mut R) -> Result<Vec<Entry>, error::LexiconError> {
-    let serde_entries = serde_yaml::from_reader(reader)?;
+pub fn serde_entries_from_reader<R: io::Read>(
+    reader: &mut R,
+) -> Result<Vec<Entry>, error::LexiconError> {
+    let serde_entries: Vec<Entry> = serde_yaml::from_reader(reader)?;
+    for serde_entry in serde_entries.iter() {
+        if !serde_entry.is_ascii() {
+            return Err(error::LexiconError::InvalidAscii(serde_entry.clone()));
+        }
+    }
     Ok(serde_entries)
 }
 
@@ -78,7 +92,8 @@ pub struct Entries {
 
 pub fn entries_from_reader<R: io::Read>(reader: &mut R) -> Result<Entries, error::LexiconError> {
     let serde_entries: Vec<Entry> = serde_entries_from_reader(reader)?;
-    let (valid, invalid): (Vec<Entry>, Vec<Entry>) = serde_entries.into_iter().partition(Entry::is_valid);
+    let (valid, invalid): (Vec<Entry>, Vec<Entry>) =
+        serde_entries.into_iter().partition(Entry::is_valid);
 
     let valid: Vec<_> = valid.into_iter().map(Entry::to_complete_entry).collect();
 

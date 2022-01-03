@@ -1,8 +1,5 @@
 use {
-    argh,
-    std::fs::File, std::io::Write as _, std::path::PathBuf,
-    lexicon::error,
-    lexicon::serde,
+    argh, lexicon::error, lexicon::serde, std::fs::File, std::io::Write as _, std::path::PathBuf,
 };
 
 #[derive(argh::FromArgs)]
@@ -15,7 +12,7 @@ struct Args {
 
 fn main() -> Result<(), error::LexiconError> {
     let args: Args = argh::from_env();
-    
+
     let mut words_file = File::open(&args.words)?;
     let mut entries = serde::serde_entries_from_reader(&mut words_file)?;
     drop(words_file);
@@ -24,7 +21,7 @@ fn main() -> Result<(), error::LexiconError> {
 
     let mut words_file = File::create(&args.words)?;
     for entry in entries {
-        let yaml_entry =  serde_yaml::to_string(&entry)?;
+        let yaml_entry = serde_yaml::to_string(&entry)?;
         writeln!(words_file, "{:}", yaml_entry)?;
         writeln!(words_file, "",)?;
     }

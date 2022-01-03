@@ -1,9 +1,6 @@
 use {
-    argh,
-    std::fs::File, std::io, std::io::Write as _, std::path::PathBuf,
-    lexicon::error,
-    lexicon::serde,
-    lexicon::types,
+    argh, lexicon::error, lexicon::serde, lexicon::types, std::fs::File, std::io,
+    std::io::Write as _, std::path::PathBuf,
 };
 
 #[derive(argh::FromArgs)]
