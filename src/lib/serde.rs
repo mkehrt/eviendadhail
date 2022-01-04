@@ -1,6 +1,6 @@
 use {
-    crate::error, crate::types, serde, serde_yaml, std::cmp::Ord, std::cmp::Ordering,
-    std::cmp::PartialOrd, std::io,
+    crate::error, crate::latex_util, crate::types, serde, serde_yaml, std::cmp::Ord,
+    std::cmp::Ordering, std::cmp::PartialOrd, std::io,
 };
 
 #[allow(unused)]
@@ -67,7 +67,9 @@ impl Entry {
 impl PartialOrd for Entry {
     fn partial_cmp(&self, other: &Self) -> Option<Ordering> {
         match (&self.word, &other.word) {
-            (Some(self_word), Some(other_word)) => self_word.partial_cmp(other_word),
+            (Some(self_word), Some(other_word)) => {
+                latex_util::compare_by_base_string(&self_word, other_word)
+            }
             (_, _) => None,
         }
     }

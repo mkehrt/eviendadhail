@@ -1,4 +1,4 @@
-use {std::cmp::Ordering, std::collections::HashMap, std::fmt};
+use {crate::latex_util, std::cmp::Ordering, std::collections::HashMap, std::fmt};
 
 #[derive(Debug, Eq, Ord, PartialEq)]
 pub struct Entry {
@@ -13,13 +13,18 @@ impl Entry {
     }
 
     pub fn heading(&self) -> String {
-        self.word.chars().next().unwrap().to_uppercase().to_string()
+        latex_util::string_to_base_string(&self.word)
+            .chars()
+            .next()
+            .unwrap()
+            .to_uppercase()
+            .to_string()
     }
 }
 
 impl PartialOrd for Entry {
     fn partial_cmp(&self, other: &Self) -> Option<Ordering> {
-        self.word.partial_cmp(&other.word)
+        latex_util::compare_by_base_string(&self.word, &other.word)
     }
 }
 
