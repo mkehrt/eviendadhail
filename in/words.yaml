@@ -1,64 +1,64 @@
 - word: adhail
   pos: adj.
-  def: Great, noble
+  def: great, noble
   etym: ADhL
   notes: Agh a diphthong
 
 - word: ahir
   pos: n.
-  def: Spear
+  def: spear
   etym: AGR
 
 - word: aiis
   pos: n.
-  def: The entire universe
+  def: the entire universe
   etym: AiS
 
 - word: ais
   pos: adj.
-  def: All
+  def: all
   etym: AiS
 
 - word: an(d)
   pos: v.
-  def: To have
+  def: to have
   etym: AND
 
 - word: cir
   pos: n.
-  def: Ship
+  def: ship
   etym: CR
 
 - word: ceath
   pos: n.
-  def: Light
+  def: light
   etym: CWTh
 
 - word: centh
   pos: n.
-  def: Star
+  def: star
   etym: CWTh
 
 - word: el
   pos: v.
   defs: 
-    - To be
+    - to be
     - copula
   etym: EL
 
 - word: er\'os
   pos: n.
-  def: Army
+  def: army
   etym: EROS
 
 - word: evien(d)
   pos: n.
-  def: Language
+  def: language
   etym: EVYN
 
 - word: eyen
   pos: n.
-  def: Word
+  def: word
   etym: EVYN
 
 - word: gan
@@ -68,38 +68,38 @@
 
 - word: gen
   pos: adj.
-  def: Bright
-  etym: GYN}
+  def: bright
+  etym: GYN
 
 - word: ivril
   pos: adj.
-  def: Purple or dark blue
+  def: purple or dark blue
   etym: VRL
 
 - word: v\'an
   pos: v.
   defs: 
-    - To come
+    - to come
     - to arrive
   etym: LC
 
 - word: nasir
   pos: n.
-  def: Sword
+  def: sword
   etym: NSR
 
 - word: pel\'an
   pos: n.
-  def: Banner, flag
+  def: banner, flag
   etm: PLN
 
 - word: adham
   pos: n.
-  def: Beginning
+  def: beginning
 
 - word: a\'ir
   pos: n.
-  def: Fire
+  def: fire
 
 - word: \'alan 
   pos: n. 
@@ -107,19 +107,19 @@
 
 - word: \'alar
   pos: v.
-  def: To love
+  def: to love
 
 - word: \'alar
   pos: n.
-  def: Love
+  def: love
 
 - word: arach
   pos: adj.
-  def: Strong
+  def: strong
 
 - word: aram 	
   pos: n.
-  def: Ground, earth
+  def: ground, earth
 
 - word: aras
   pos: v.
@@ -127,18 +127,18 @@
 
 - word: ardh\'ol
   pos: n.
-  def: The sun
+  def: the sun
 
 - word: aron(d)
   pos: v.
-  def: To worship
+  def: to worship
 
 - word: atha
   pos: conj. 
   def: because
 
-- word: bé-
-  pos: p.a.
+- word: b\'e-
+  pos: a.p.
   def: for, for the purpose of
 
 - word: caer
@@ -158,7 +158,7 @@
   def: beautiful
 
 - word: em-
-  pos: p.a.
+  pos: a.p.
   def: with
 
 - word: erath
@@ -181,7 +181,7 @@
   pos: a.p.
   ded: through
 
-- word: l\a'na
+- word: l\'ana
   pos: n.
   def: the moon
 
@@ -193,7 +193,7 @@
   pos: v.
   def: to sing
 
-- word: mán
+- word: m\'an
   pos: v.
   def: to eat
 
@@ -218,7 +218,7 @@
   pos: n.
   def: child
 
-- word: noém
+- word: no\'em
   pos: n.
   def: internal organ, piece of the body
 
@@ -236,27 +236,59 @@
 
 - word: ravas
   pos: n.
-  def: evil, vad
+  def: evil, bad
 
 - word: sau
   pos: conj.
   def: but
 
-- word: sé-
+- word: s\'e-
   pos: a.p.
   def: alienable possessive
 
-#selú 	v. 	to search
-#senú 	v. 	to need, often used as an auxilliary
-#tapesú to spit
-#tasá 	n. 	tragedy, disaster
-#té- 	prep. 	to, towards
-#telú 	v. 	to ask
-#telú to ask
-#téris
-#teselú 	v. 	to want
-#tesu to do
-#tíel
-#yes 	v. 	to see
-#yú 	v. 	to know
+- word: sel
+  pos: v. 
+  def: to search
+
+- word: sen
+  pos: v.
+  def: to need, often used as an auxilliary
+
+- word: tapes
+  pos: v.
+  def: to spit
+
+- word: tasa 
+  pos: n.
+  def: tragedy, disaster
+
+- word: t\'e-
+  pos: a.p.
+  def: to, towards
+
+- word: tel
+  pos: v.
+  def: to ask
+
+- word: t\'eris
+  pos: v.
+  def: to cry
+
+- word: tesel
+  pos: v.
+  def: to want
+  
+- word: tiel
+  pos: n.
+  defs: 
+    - the sky
+    - the heavens broadly
+
+- word: yes
+  pos: v.
+  def: to see
+
+- word: yu
+  pos: v.
+  def: to know
 #

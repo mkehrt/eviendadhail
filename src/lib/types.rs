@@ -36,7 +36,7 @@ impl fmt::Display for Entry {
             write!(f, "{:}", self.defs[0])?;
         } else {
             for (i, def) in self.defs.iter().enumerate() {
-                write!(f, "\\textbf{{{:}.}} {:}", i + 1, def)?;
+                write!(f, "\\textbf{{{:}.}} {:} ", i + 1, def)?;
             }
         }
 
