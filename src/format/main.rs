@@ -3,7 +3,7 @@ use {
 };
 
 #[derive(argh::FromArgs)]
-/// Convert a lexicon YAML file to LaTeX
+/// In place reformat a YAML file
 struct Args {
     /// file containing YAML.
     #[argh(option)]
