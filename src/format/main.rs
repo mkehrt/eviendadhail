@@ -21,7 +21,7 @@ fn main() -> Result<(), error::LexiconError> {
 
     let mut words_file = File::create(&args.words)?;
     for entry in entries {
-        let yaml_entry = serde_yaml::to_string(&entry)?;
+        let yaml_entry = serde_json5::to_string(&entry)?;
         writeln!(words_file, "{:}", yaml_entry)?;
         writeln!(words_file, "",)?;
     }
