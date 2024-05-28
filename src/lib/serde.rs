@@ -1,16 +1,22 @@
 use {
-    crate::error, crate::latex_util, crate::types, serde, serde_yaml, std::cmp::Ord,
+    crate::error, crate::latex_util, crate::types, serde, serde_json5, std::cmp::Ord,
     std::cmp::Ordering, std::cmp::PartialOrd, std::io,
 };
 
 #[allow(unused)]
 #[derive(Clone, Debug, Eq, Ord, PartialEq, serde::Deserialize, serde::Serialize)]
 pub struct Entry {
+    #[serde(skip_serializing_if = "Option::is_none")]
     word: Option<String>,
+    #[serde(skip_serializing_if = "Option::is_none")]
     pos: Option<String>,
+    #[serde(skip_serializing_if = "Option::is_none")]
     def: Option<String>,
+    #[serde(skip_serializing_if = "Option::is_none")]
     defs: Option<Vec<String>>,
+    #[serde(skip_serializing_if = "Option::is_none")]
     etym: Option<String>,
+    #[serde(skip_serializing_if = "Option::is_none")]
     notes: Option<String>,
 }
 
