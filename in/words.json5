@@ -1,2136 +1,3378 @@
-{"word":"adhail","pos":"adj.","def":"great, noble","defs":null,"etym":"ADhL","notes":"Agh a diphthong"}
-
-{"word":"adham","pos":"n.","def":"beginning","defs":null,"etym":null,"notes":null}
-
-{"word":"ahir","pos":"n.","def":"spear","defs":null,"etym":"AGR","notes":null}
-
-{"word":"aiis","pos":"n.","def":"the entire universe","defs":null,"etym":"AiS","notes":null}
-
-{"word":"a\\'ir","pos":"n.","def":"fire","defs":null,"etym":null,"notes":null}
-
-{"word":"ais","pos":"adj.","def":"all","defs":null,"etym":"AiS","notes":null}
-
-{"word":"\\'alan","pos":"n.","def":"house","defs":null,"etym":null,"notes":null}
-
-{"word":"\\'alar","pos":"v.","def":"to love","defs":null,"etym":null,"notes":null}
-
-{"word":"\\'alar","pos":"n.","def":"love","defs":null,"etym":null,"notes":null}
-
-{"word":"an(d)","pos":"v.","def":"to have","defs":null,"etym":"AND","notes":null}
-
-{"word":"andam","pos":"n.","def":"ground, earth","defs":null,"etym":null,"notes":null}
-
-{"word":"arach","pos":"adj.","def":"strong","defs":null,"etym":null,"notes":null}
-
-{"word":"aran","pos":"a.p.","def":"around","defs":null,"etym":null,"notes":null}
-
-{"word":"aras","pos":"v.","def":"to fight","defs":null,"etym":null,"notes":null}
-
-{"word":"ardh\\'ol","pos":"n.","def":"the sun","defs":null,"etym":null,"notes":null}
-
-{"word":"aron(d)","pos":"v.","def":"to worship","defs":null,"etym":null,"notes":null}
-
-{"word":"atha","pos":"conj.","def":"because","defs":null,"etym":null,"notes":null}
-
-{"word":"b\\'e-","pos":"a.p.","def":"for, for the purpose of","defs":null,"etym":null,"notes":null}
-
-{"word":"caer","pos":"adj.","def":"strong","defs":null,"etym":null,"notes":null}
-
-{"word":"calas","pos":"n.","def":"light","defs":null,"etym":"CWTh","notes":null}
-
-{"word":"centh","pos":"n.","def":"star","defs":null,"etym":"CWTh","notes":null}
-
-{"word":"cir","pos":"n.","def":"ship","defs":null,"etym":"CR","notes":null}
-
-{"word":"cisceth","pos":"n.","def":"window","defs":null,"etym":null,"notes":null}
-
-{"word":"dan","pos":"n.","def":"person","defs":null,"etym":null,"notes":null}
-
-{"word":"el","pos":"v.","def":null,"defs":["to be","copula"],"etym":"EL","notes":null}
-
-{"word":"elen(d)","pos":"adj.","def":"beautiful","defs":null,"etym":null,"notes":null}
-
-{"word":"em-","pos":"a.p.","def":"with","defs":null,"etym":null,"notes":null}
-
-{"word":"erath","pos":"conj.","def":"therefore","defs":null,"etym":null,"notes":null}
-
-{"word":"er\\'os","pos":"n.","def":"army","defs":null,"etym":"EROS","notes":null}
-
-{"word":"es","pos":"a.p.","def":"about, concerning","defs":null,"etym":null,"notes":null}
-
-{"word":"evien(d)","pos":"n.","def":"language","defs":null,"etym":"EVYN","notes":null}
-
-{"word":"eyen","pos":"n.","def":"word","defs":null,"etym":"EVYN","notes":null}
-
-{"word":"gan","pos":"n.","def":"Jewel","defs":null,"etym":"GYN","notes":null}
-
-{"word":"gen","pos":"adj.","def":"bright","defs":null,"etym":"GYN","notes":null}
-
-{"word":"hena","pos":"n.","def":"woman","defs":null,"etym":null,"notes":null}
-
-{"word":"i","pos":"conj.","def":"and","defs":null,"etym":null,"notes":null}
-
-{"word":"il","pos":"n.","def":"king","defs":null,"etym":null,"notes":null}
-
-{"word":"is-","pos":"a.p.","def":null,"defs":null,"etym":null,"notes":null}
-
-{"word":"ivril","pos":"adj.","def":"purple or dark blue","defs":null,"etym":"VRL","notes":null}
-
-{"word":"l\\'ana","pos":"n.","def":"the moon","defs":null,"etym":null,"notes":null}
-
-{"word":"lel","pos":"v.","def":"to laugh","defs":null,"etym":null,"notes":null}
-
-{"word":"lis","pos":"v.","def":"to sing","defs":null,"etym":null,"notes":null}
-
-{"word":"m\\'an","pos":"v.","def":"to eat","defs":null,"etym":null,"notes":null}
-
-{"word":"me","pos":"adj.","def":"no, not, none","defs":null,"etym":null,"notes":"Obvs greek"}
-
-{"word":"mean","pos":"adj.","def":"a lot, many","defs":null,"etym":null,"notes":null}
-
-{"word":"meleth","pos":"adj.","def":"happy","defs":null,"etym":null,"notes":null}
-
-{"word":"methen","pos":"v.","def":"to play","defs":null,"etym":null,"notes":null}
-
-{"word":"nasir","pos":"n.","def":"sword","defs":null,"etym":"NSR","notes":null}
-
-{"word":"nel","pos":"n.","def":"child","defs":null,"etym":null,"notes":null}
-
-{"word":"no\\'em","pos":"n.","def":"internal organ, piece of the body","defs":null,"etym":null,"notes":null}
-
-{"word":"pela","pos":"n.","def":"skin","defs":null,"etym":null,"notes":null}
-
-{"word":"pel\\'an","pos":"n.","def":"banner, flag","defs":null,"etym":null,"notes":null}
-
-{"word":"pelan","pos":"n.","def":"story","defs":null,"etym":null,"notes":null}
-
-{"word":"radh","pos":"v.","def":"to tear, to rip","defs":null,"etym":null,"notes":null}
-
-{"word":"ravas","pos":"n.","def":"evil, bad","defs":null,"etym":null,"notes":null}
-
-{"word":"s\\'e-","pos":"a.p.","def":"alienable possessive","defs":null,"etym":null,"notes":null}
-
-{"word":"selar","pos":"v.","def":"to search","defs":null,"etym":null,"notes":null}
-
-{"word":"sen","pos":"v.","def":"to need, often used as an auxilliary","defs":null,"etym":null,"notes":null}
-
-{"word":"tapes","pos":"v.","def":"to spit","defs":null,"etym":null,"notes":null}
-
-{"word":"tasan","pos":"n.","def":"tragedy, disaster","defs":null,"etym":null,"notes":null}
-
-{"word":"t\\'e-","pos":"a.p.","def":"to, towards","defs":null,"etym":null,"notes":null}
-
-{"word":"tel","pos":"v.","def":"to ask","defs":null,"etym":null,"notes":null}
-
-{"word":"t\\'eris","pos":"v.","def":"to cry","defs":null,"etym":null,"notes":null}
-
-{"word":"tesel","pos":"v.","def":"to want","defs":null,"etym":null,"notes":null}
-
-{"word":"tiel","pos":"n.","def":null,"defs":["the sky","the heavens broadly"],"etym":null,"notes":null}
-
-{"word":"v\\'al","pos":"v.","def":null,"defs":["to go","to leave"],"etym":"LC","notes":null}
-
-{"word":"v\\'an","pos":"v.","def":null,"defs":["to come","to arrive"],"etym":"LC","notes":null}
-
-{"word":"ve","pos":"conj.","def":"but","defs":null,"etym":null,"notes":null}
-
-{"word":"yes","pos":"v.","def":"to see","defs":null,"etym":null,"notes":null}
-
-{"word":"yu","pos":"v.","def":"to know","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"above","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"across","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"act","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"active","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"activity","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"add","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"afraid","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"after","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"again","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"age","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"ago","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"agree","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"air","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"all","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"alone","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"along","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"already","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"always","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"am","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"amount","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"an","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"and","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"angry","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"another","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"answer","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"any","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"anyone","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"anything","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"anytime","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"appear","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"apple","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"are","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"area","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"arm","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"army","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"around","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"arrive","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"art","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"as","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"ask","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"at","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"attack","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"aunt","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"autumn","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"away","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"baby","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"base","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"back","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"bad","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"bag","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"ball","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"bank","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"basket","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"bath","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"be","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"bean","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"bear","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"beautiful","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"beer","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"bed","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"bedroom","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"behave","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"before","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"begin","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"behind","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"bell","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"below","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"besides","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"best","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"better","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"between","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"big","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"bird","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"birth","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"birthday","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"bit","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"bite","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"black","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"bleed","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"block","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"blood","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"blow","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"blue","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"board","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"boat","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"body","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"boil","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"bone","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"book","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"border","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"born","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"borrow","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"both","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"bottle","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"bottom","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"bowl","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"box","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"boy","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"branch","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"brave","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"bread","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"break","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"breakfast","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"breathe","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"bridge","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"bright","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"bring","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"brother","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"brown","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"brush","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"build","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"burn","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"business","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"bus","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"busy","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"but","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"buy","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"by","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"cake","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"call","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"can","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"candle","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"cap","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"car","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"card","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"care","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"careful","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"careless","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"carry","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"case","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"cat","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"catch","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"central","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"century","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"certain","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"chair","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"chance","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"change","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"chase","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"cheap","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"cheese","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"chicken","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"child","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"children","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"chocolate","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"choice","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"choose","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"circle","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"city","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"class","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"clever","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"clean","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"clear","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"climb","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"clock","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"cloth","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"clothes","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"cloud","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"cloudy","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"close","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"coffee","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"coat","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"coin","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"cold","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"collect","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"colour","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"comb","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"comfortable","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"common","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"compare","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"come","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"complete","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"computer","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"condition","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"continue","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"control","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"cook","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"cool","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"copper","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"corn","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"corner","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"correct","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"cost","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"contain","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"count","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"country","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"course","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"cover","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"crash","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"cross","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"cry","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"cup","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"cupboard","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"cut","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"dance","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"dangerous","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"dark","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"daughter","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"day","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"dead","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"decide","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"decrease","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"deep","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"deer","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"depend","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"desk","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"destroy","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"develop","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"die","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"different","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"difficult","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"dinner","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"direction","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"dirty","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"discover","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"dish","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"do","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"dog","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"door","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"double","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"down","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"draw","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"dream","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"dress","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"drink","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"drive","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"drop","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"dry","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"duck","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"dust","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"duty","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"each","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"ear","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"early","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"earn","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"earth","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"east","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"easy","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"eat","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"education","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"effect","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"egg","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"eight","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"either","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"electric","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"elephant","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"else","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"empty","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"end","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"enemy","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"enjoy","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"enough","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"enter","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"equal","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"entrance","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"escape","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"even","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"evening","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"event","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"ever","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"every","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"everyone","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"exact","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"everybody","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"examination","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"example","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"except","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"excited","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"exercise","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"expect","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"expensive","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"explain","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"extremely","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"eye","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"face","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"fact","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"fail","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"fall","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"false","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"family","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"famous","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"far","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"farm","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"father","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"fast","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"fat","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"fault","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"fear","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"feed","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"feel","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"female","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"fever","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"few","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"fight","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"fill","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"film","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"find","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"fine","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"finger","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"finish","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"fire","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"first","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"fit","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"five","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"fix","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"flag","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"flat","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"float","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"floor","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"flour","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"flower","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"fly","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"fold","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"follow","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"food","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"fool","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"foot","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"football","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"for","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"force","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"foreign","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"forest","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"forget","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"forgive","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"fork","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"form","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"fox","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"four","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"free","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"freedom","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"freeze","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"fresh","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"friend","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"friendly","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"from","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"front","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"fruit","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"full","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"fun","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"funny","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"furniture","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"further","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"future","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"game","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"garden","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"gate","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"general","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"gentleman","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"get","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"gift","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"give","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"glad","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"glass","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"go","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"goat","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"god","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"gold","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"good","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"goodbye","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"grandfather","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"grandmother","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"grass","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"grave","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"great","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"green","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"grey","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"ground","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"group","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"grow","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"gun","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"hair","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"half","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"hall","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"hammer","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"hand","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"happen","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"happy","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"hard","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"hat","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"hate","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"have","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"he","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"head","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"healthy","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"hear","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"heavy","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"hello","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"help","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"heart","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"heaven","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"height","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"help","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"hen","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"her","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"here","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"hers","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"hide","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"high","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"hill","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"him","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"his","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"hit","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"hobby","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"hold","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"hole","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"holiday","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"home","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"hope","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"horse","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"hospital","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"hot","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"hotel","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"house","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"how","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"hundred","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"hungry","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"hour","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"hurry","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"husband","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"hurt","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"I","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"ice","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"idea","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"if","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"important","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"in","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"increase","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"inside","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"into","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"introduce","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"invent","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"iron","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"invite","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"is","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"island","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"it","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"its","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"jelly","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"job","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"join","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"juice","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"jump","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"just","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"keep","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"key","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"kill","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"kind","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"king","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"kitchen","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"knee","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"knife","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"knock","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"know","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"ladder","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"lady","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"lamp","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"land","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"large","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"last","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"late","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"lately","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"laugh","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"lazy","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"lead","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"leaf","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"learn","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"leave","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"leg","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"left","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"lend","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"length","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"less","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"lesson","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"let","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"letter","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"library","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"lie","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"life","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"light","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"like","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"lion","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"lip","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"list","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"listen","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"little","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"live","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"lock","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"lonely","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"long","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"look","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"lose","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"lot","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"love","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"low","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"lower","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"luck","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"machine","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"main","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"make","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"male","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"man","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"many","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"map","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"mark","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"market","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"marry","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"matter","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"may","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"me","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"meal","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"mean","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"measure","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"meat","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"medicine","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"meet","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"member","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"mention","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"method","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"middle","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"milk","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"million","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"mind","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"minute","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"miss","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"mistake","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"mix","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"model","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"modern","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"moment","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"money","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"monkey","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"month","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"moon","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"more","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"morning","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"most","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"mother","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"mountain","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"mouth","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"move","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"much","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"music","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"must","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"my","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"name","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"narrow","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"nation","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"nature","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"near","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"nearly","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"neck","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"need","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"needle","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"neighbour","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"neither","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"net","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"never","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"new","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"news","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"newspaper","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"next","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"nice","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"night","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"nine","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"no","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"noble","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"noise","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"none","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"nor","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"north","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"nose","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"not","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"nothing","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"notice","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"now","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"number","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"obey","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"object","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"ocean","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"of","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"off","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"offer","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"office","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"often","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"oil","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"old","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"on","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"one","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"only","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"open","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"opposite","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"or","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"orange","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"order","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"other","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"our","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"out","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"outside","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"over","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"own","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"page","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"pain","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"paint","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"pair","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"pan","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"paper","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"parent","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"park","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"part","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"partner","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"party","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"pass","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"past","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"path","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"pay","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"peace","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"pen","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"pencil","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"people","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"pepper","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"per","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"perfect","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"period","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"person","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"petrol","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"photograph","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"piano","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"pick","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"picture","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"piece","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"pig","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"pin","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"pink","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"place","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"plane","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"plant","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"plastic","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"plate","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"play","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"please","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"pleased","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"plenty","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"pocket","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"point","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"poison","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"police","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"polite","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"pool","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"poor","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"popular","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"position","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"possible","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"potato","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"pour","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"power","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"present","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"press","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"pretty","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"prevent","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"price","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"prince","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"prison","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"private","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"prize","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"probably","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"problem","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"produce","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"promise","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"proper","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"protect","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"provide","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"public","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"pull","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"punish","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"pupil","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"push","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"put","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"queen","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"question","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"quick","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"quiet","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"quite","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"radio","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"rain","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"rainy","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"raise","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"reach","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"read","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"ready","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"real","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"really","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"receive","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"record","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"red","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"remember","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"remind","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"remove","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"rent","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"repair","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"repeat","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"reply","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"report","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"rest","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"restaurant","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"result","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"return","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"rice","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"rich","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"ride","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"right","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"ring","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"rise","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"road","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"rob","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"rock","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"room","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"round","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"rubber","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"rude","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"rule","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"ruler","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"run","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"rush","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"sad","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"safe","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"sail","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"salt","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"same","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"sand","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"save","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"say","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"school","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"science","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"scissors","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"search","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"seat","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"second","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"see","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"seem","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"sell","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"send","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"sentence","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"serve","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"seven","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"several","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"sex","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"shade","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"shadow","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"shake","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"shape","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"share","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"sharp","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"she","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"sheep","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"sheet","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"shelf","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"shine","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"ship","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"shirt","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"shoe","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"shoot","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"shop","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"short","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"should","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"shoulder","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"shout","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"show","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"sick","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"side","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"signal","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"silence","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"silly","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"silver","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"similar","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"simple","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"single","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"since","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"sing","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"sink","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"sister","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"sit","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"six","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"size","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"skill","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"skin","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"skirt","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"sky","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"sleep","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"slip","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"slow","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"smoke","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"small","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"smell","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"smile","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"smoke","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"snow","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"so","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"soap","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"sock","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"soft","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"some","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"someone","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"something","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"sometimes","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"son","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"soon","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"sorry","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"sound","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"soup","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"south","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"space","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"speak","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"special","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"speed","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"spell","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"spend","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"spoon","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"sport","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"spread","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"spring","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"square","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"stamp","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"stand","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"star","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"start","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"station","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"stay","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"steal","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"steam","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"step","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"still","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"stomach","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"stone","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"stop","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"store","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"storm","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"story","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"strange","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"street","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"strong","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"structure","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"student","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"study","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"stupid","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"subject","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"substance","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"successful","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"such","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"sudden","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"sugar","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"suitable","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"summer","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"sun","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"sunny","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"support","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"sure","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"surprise","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"sweet","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"swim","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"sword","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"table","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"take","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"talk","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"tall","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"taste","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"taxi","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"tea","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"teach","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"team","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"tear","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"telephone","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"television","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"tell","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"ten","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"tennis","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"terrible","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"test","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"than","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"that","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"the","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"their","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"then","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"there","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"therefore","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"these","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"thick","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"thin","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"thing","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"think","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"third","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"this","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"though","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"threat","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"three","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"tidy","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"tie","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"title","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"to","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"today","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"toe","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"together","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"tomorrow","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"tonight","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"too","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"tool","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"tooth","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"top","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"total","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"touch","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"town","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"train","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"tram","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"travel","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"tree","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"trouble","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"true","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"trust","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"twice","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"try","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"turn","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"type","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"uncle","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"under","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"understand","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"unit","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"until","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"up","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"use","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"useful","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"usual","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"usually","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"vegetable","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"very","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"village","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"voice","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"visit","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"wait","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"wake","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"walk","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"want","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"warm","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"wash","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"waste","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"watch","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"water","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"way","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"we","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"weak","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"wear","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"weather","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"wedding","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"week","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"weight","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"welcome","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"well","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"west","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"wet","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"what","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"wheel","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"when","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"where","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"which","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"while","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"white","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"who","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"why","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"wide","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"wife","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"wild","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"will","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"win","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"wind","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"window","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"wine","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"winter","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"wire","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"wise","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"wish","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"with","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"without","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"woman","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"wonder","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"word","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"work","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"world","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"worry","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"worst","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"write","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"wrong","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"year","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"yes","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"yesterday","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"yet","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"you","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"young","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"your","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"zero","defs":null,"etym":null,"notes":null}
-
-{"word":null,"pos":null,"def":"zoo","defs":null,"etym":null,"notes":null}
+[
+    {
+        word: "adhail",
+        pos: "adj.",
+        def: "great, noble",
+        etym: "ADhL",
+        notes: "Agh a diphthong",
+    },
+    {
+        word: "adham",
+        pos: "n.",
+        def: "beginning",
+    },
+    {
+        word: "ahir",
+        pos: "n.",
+        def: "spear",
+        etym: "AGR",
+    },
+    {
+        word: "aiis",
+        pos: "n.",
+        def: "the entire universe",
+        etym: "AiS",
+    },
+    {
+        word: "a\\'ir",
+        pos: "n.",
+        def: "fire",
+    },
+    {
+        word: "ais",
+        pos: "adj.",
+        def: "all",
+        etym: "AiS",
+    },
+    {
+        word: "\\'alan",
+        pos: "n.",
+        def: "house",
+    },
+    {
+        word: "\\'alar",
+        pos: "v.",
+        def: "to love",
+    },
+    {
+        word: "\\'alar",
+        pos: "n.",
+        def: "love",
+    },
+    {
+        word: "an(d)",
+        pos: "v.",
+        def: "to have",
+        etym: "AND",
+    },
+    {
+        word: "andam",
+        pos: "n.",
+        def: "ground, earth",
+    },
+    {
+        word: "arach",
+        pos: "adj.",
+        def: "strong",
+    },
+    {
+        word: "aran",
+        pos: "a.p.",
+        def: "around",
+    },
+    {
+        word: "aras",
+        pos: "v.",
+        def: "to fight",
+    },
+    {
+        word: "ardh\\'ol",
+        pos: "n.",
+        def: "the sun",
+    },
+    {
+        word: "aron(d)",
+        pos: "v.",
+        def: "to worship",
+    },
+    {
+        word: "atha",
+        pos: "conj.",
+        def: "because",
+    },
+    {
+        word: "b\\'e-",
+        pos: "a.p.",
+        def: "for, for the purpose of",
+    },
+    {
+        word: "caer",
+        pos: "adj.",
+        def: "strong",
+    },
+    {
+        word: "calas",
+        pos: "n.",
+        def: "light",
+        etym: "CWTh",
+    },
+    {
+        word: "centh",
+        pos: "n.",
+        def: "star",
+        etym: "CWTh",
+    },
+    {
+        word: "cir",
+        pos: "n.",
+        def: "ship",
+        etym: "CR",
+    },
+    {
+        word: "cisceth",
+        pos: "n.",
+        def: "window",
+    },
+    {
+        word: "dan",
+        pos: "n.",
+        def: "person",
+    },
+    {
+        word: "el",
+        pos: "v.",
+        defs: [
+            "to be",
+            "copula",
+        ],
+        etym: "EL",
+    },
+    {
+        word: "elen(d)",
+        pos: "adj.",
+        def: "beautiful",
+    },
+    {
+        word: "em-",
+        pos: "a.p.",
+        def: "with",
+    },
+    {
+        word: "erath",
+        pos: "conj.",
+        def: "therefore",
+    },
+    {
+        word: "er\\'os",
+        pos: "n.",
+        def: "army",
+        etym: "EROS",
+    },
+    {
+        word: "es",
+        pos: "a.p.",
+        def: "about, concerning",
+    },
+    {
+        word: "evien(d)",
+        pos: "n.",
+        def: "language",
+        etym: "EVYN",
+    },
+    {
+        word: "eyen",
+        pos: "n.",
+        def: "word",
+        etym: "EVYN",
+    },
+    {
+        word: "gan",
+        pos: "n.",
+        def: "Jewel",
+        etym: "GYN",
+    },
+    {
+        word: "gen",
+        pos: "adj.",
+        def: "bright",
+        etym: "GYN",
+    },
+    {
+        word: "hena",
+        pos: "n.",
+        def: "woman",
+    },
+    {
+        word: "i",
+        pos: "conj.",
+        def: "and",
+    },
+    {
+        word: "il",
+        pos: "n.",
+        def: "king",
+    },
+    {
+        word: "is-",
+        pos: "a.p.",
+    },
+    {
+        word: "ivril",
+        pos: "adj.",
+        def: "purple or dark blue",
+        etym: "VRL",
+    },
+    {
+        word: "l\\'ana",
+        pos: "n.",
+        def: "the moon",
+    },
+    {
+        word: "lel",
+        pos: "v.",
+        def: "to laugh",
+    },
+    {
+        word: "lis",
+        pos: "v.",
+        def: "to sing",
+    },
+    {
+        word: "m\\'an",
+        pos: "v.",
+        def: "to eat",
+    },
+    {
+        word: "me",
+        pos: "adj.",
+        def: "no, not, none",
+        notes: "Obvs greek",
+    },
+    {
+        word: "mean",
+        pos: "adj.",
+        def: "a lot, many",
+    },
+    {
+        word: "meleth",
+        pos: "adj.",
+        def: "happy",
+    },
+    {
+        word: "methen",
+        pos: "v.",
+        def: "to play",
+    },
+    {
+        word: "nasir",
+        pos: "n.",
+        def: "sword",
+        etym: "NSR",
+    },
+    {
+        word: "nel",
+        pos: "n.",
+        def: "child",
+    },
+    {
+        word: "no\\'em",
+        pos: "n.",
+        def: "internal organ, piece of the body",
+    },
+    {
+        word: "pela",
+        pos: "n.",
+        def: "skin",
+    },
+    {
+        word: "pel\\'an",
+        pos: "n.",
+        def: "banner, flag",
+    },
+    {
+        word: "pelan",
+        pos: "n.",
+        def: "story",
+    },
+    {
+        word: "radh",
+        pos: "v.",
+        def: "to tear, to rip",
+    },
+    {
+        word: "ravas",
+        pos: "n.",
+        def: "evil, bad",
+    },
+    {
+        word: "s\\'e-",
+        pos: "a.p.",
+        def: "alienable possessive",
+    },
+    {
+        word: "selar",
+        pos: "v.",
+        def: "to search",
+    },
+    {
+        word: "sen",
+        pos: "v.",
+        def: "to need, often used as an auxilliary",
+    },
+    {
+        word: "tapes",
+        pos: "v.",
+        def: "to spit",
+    },
+    {
+        word: "tasan",
+        pos: "n.",
+        def: "tragedy, disaster",
+    },
+    {
+        word: "t\\'e-",
+        pos: "a.p.",
+        def: "to, towards",
+    },
+    {
+        word: "tel",
+        pos: "v.",
+        def: "to ask",
+    },
+    {
+        word: "t\\'eris",
+        pos: "v.",
+        def: "to cry",
+    },
+    {
+        word: "tesel",
+        pos: "v.",
+        def: "to want",
+    },
+    {
+        word: "tiel",
+        pos: "n.",
+        defs: [
+            "the sky",
+            "the heavens broadly",
+        ],
+    },
+    {
+        word: "v\\'al",
+        pos: "v.",
+        defs: [
+            "to go",
+            "to leave",
+        ],
+        etym: "LC",
+    },
+    {
+        word: "v\\'an",
+        pos: "v.",
+        defs: [
+            "to come",
+            "to arrive",
+        ],
+        etym: "LC",
+    },
+    {
+        word: "ve",
+        pos: "conj.",
+        def: "but",
+    },
+    {
+        word: "yes",
+        pos: "v.",
+        def: "to see",
+    },
+    {
+        word: "yu",
+        pos: "v.",
+        def: "to know",
+    },
+    {
+        def: "above",
+    },
+    {
+        def: "across",
+    },
+    {
+        def: "act",
+    },
+    {
+        def: "active",
+    },
+    {
+        def: "activity",
+    },
+    {
+        def: "add",
+    },
+    {
+        def: "afraid",
+    },
+    {
+        def: "after",
+    },
+    {
+        def: "again",
+    },
+    {
+        def: "age",
+    },
+    {
+        def: "ago",
+    },
+    {
+        def: "agree",
+    },
+    {
+        def: "air",
+    },
+    {
+        def: "all",
+    },
+    {
+        def: "alone",
+    },
+    {
+        def: "along",
+    },
+    {
+        def: "already",
+    },
+    {
+        def: "always",
+    },
+    {
+        def: "am",
+    },
+    {
+        def: "amount",
+    },
+    {
+        def: "an",
+    },
+    {
+        def: "and",
+    },
+    {
+        def: "angry",
+    },
+    {
+        def: "another",
+    },
+    {
+        def: "answer",
+    },
+    {
+        def: "any",
+    },
+    {
+        def: "anyone",
+    },
+    {
+        def: "anything",
+    },
+    {
+        def: "anytime",
+    },
+    {
+        def: "appear",
+    },
+    {
+        def: "apple",
+    },
+    {
+        def: "are",
+    },
+    {
+        def: "area",
+    },
+    {
+        def: "arm",
+    },
+    {
+        def: "army",
+    },
+    {
+        def: "around",
+    },
+    {
+        def: "arrive",
+    },
+    {
+        def: "art",
+    },
+    {
+        def: "as",
+    },
+    {
+        def: "ask",
+    },
+    {
+        def: "at",
+    },
+    {
+        def: "attack",
+    },
+    {
+        def: "aunt",
+    },
+    {
+        def: "autumn",
+    },
+    {
+        def: "away",
+    },
+    {
+        def: "baby",
+    },
+    {
+        def: "base",
+    },
+    {
+        def: "back",
+    },
+    {
+        def: "bad",
+    },
+    {
+        def: "bag",
+    },
+    {
+        def: "ball",
+    },
+    {
+        def: "bank",
+    },
+    {
+        def: "basket",
+    },
+    {
+        def: "bath",
+    },
+    {
+        def: "be",
+    },
+    {
+        def: "bean",
+    },
+    {
+        def: "bear",
+    },
+    {
+        def: "beautiful",
+    },
+    {
+        def: "beer",
+    },
+    {
+        def: "bed",
+    },
+    {
+        def: "bedroom",
+    },
+    {
+        def: "behave",
+    },
+    {
+        def: "before",
+    },
+    {
+        def: "begin",
+    },
+    {
+        def: "behind",
+    },
+    {
+        def: "bell",
+    },
+    {
+        def: "below",
+    },
+    {
+        def: "besides",
+    },
+    {
+        def: "best",
+    },
+    {
+        def: "better",
+    },
+    {
+        def: "between",
+    },
+    {
+        def: "big",
+    },
+    {
+        def: "bird",
+    },
+    {
+        def: "birth",
+    },
+    {
+        def: "birthday",
+    },
+    {
+        def: "bit",
+    },
+    {
+        def: "bite",
+    },
+    {
+        def: "black",
+    },
+    {
+        def: "bleed",
+    },
+    {
+        def: "block",
+    },
+    {
+        def: "blood",
+    },
+    {
+        def: "blow",
+    },
+    {
+        def: "blue",
+    },
+    {
+        def: "board",
+    },
+    {
+        def: "boat",
+    },
+    {
+        def: "body",
+    },
+    {
+        def: "boil",
+    },
+    {
+        def: "bone",
+    },
+    {
+        def: "book",
+    },
+    {
+        def: "border",
+    },
+    {
+        def: "born",
+    },
+    {
+        def: "borrow",
+    },
+    {
+        def: "both",
+    },
+    {
+        def: "bottle",
+    },
+    {
+        def: "bottom",
+    },
+    {
+        def: "bowl",
+    },
+    {
+        def: "box",
+    },
+    {
+        def: "boy",
+    },
+    {
+        def: "branch",
+    },
+    {
+        def: "brave",
+    },
+    {
+        def: "bread",
+    },
+    {
+        def: "break",
+    },
+    {
+        def: "breakfast",
+    },
+    {
+        def: "breathe",
+    },
+    {
+        def: "bridge",
+    },
+    {
+        def: "bright",
+    },
+    {
+        def: "bring",
+    },
+    {
+        def: "brother",
+    },
+    {
+        def: "brown",
+    },
+    {
+        def: "brush",
+    },
+    {
+        def: "build",
+    },
+    {
+        def: "burn",
+    },
+    {
+        def: "business",
+    },
+    {
+        def: "bus",
+    },
+    {
+        def: "busy",
+    },
+    {
+        def: "but",
+    },
+    {
+        def: "buy",
+    },
+    {
+        def: "by",
+    },
+    {
+        def: "cake",
+    },
+    {
+        def: "call",
+    },
+    {
+        def: "can",
+    },
+    {
+        def: "candle",
+    },
+    {
+        def: "cap",
+    },
+    {
+        def: "car",
+    },
+    {
+        def: "card",
+    },
+    {
+        def: "care",
+    },
+    {
+        def: "careful",
+    },
+    {
+        def: "careless",
+    },
+    {
+        def: "carry",
+    },
+    {
+        def: "case",
+    },
+    {
+        def: "cat",
+    },
+    {
+        def: "catch",
+    },
+    {
+        def: "central",
+    },
+    {
+        def: "century",
+    },
+    {
+        def: "certain",
+    },
+    {
+        def: "chair",
+    },
+    {
+        def: "chance",
+    },
+    {
+        def: "change",
+    },
+    {
+        def: "chase",
+    },
+    {
+        def: "cheap",
+    },
+    {
+        def: "cheese",
+    },
+    {
+        def: "chicken",
+    },
+    {
+        def: "child",
+    },
+    {
+        def: "children",
+    },
+    {
+        def: "chocolate",
+    },
+    {
+        def: "choice",
+    },
+    {
+        def: "choose",
+    },
+    {
+        def: "circle",
+    },
+    {
+        def: "city",
+    },
+    {
+        def: "class",
+    },
+    {
+        def: "clever",
+    },
+    {
+        def: "clean",
+    },
+    {
+        def: "clear",
+    },
+    {
+        def: "climb",
+    },
+    {
+        def: "clock",
+    },
+    {
+        def: "cloth",
+    },
+    {
+        def: "clothes",
+    },
+    {
+        def: "cloud",
+    },
+    {
+        def: "cloudy",
+    },
+    {
+        def: "close",
+    },
+    {
+        def: "coffee",
+    },
+    {
+        def: "coat",
+    },
+    {
+        def: "coin",
+    },
+    {
+        def: "cold",
+    },
+    {
+        def: "collect",
+    },
+    {
+        def: "colour",
+    },
+    {
+        def: "comb",
+    },
+    {
+        def: "comfortable",
+    },
+    {
+        def: "common",
+    },
+    {
+        def: "compare",
+    },
+    {
+        def: "come",
+    },
+    {
+        def: "complete",
+    },
+    {
+        def: "computer",
+    },
+    {
+        def: "condition",
+    },
+    {
+        def: "continue",
+    },
+    {
+        def: "control",
+    },
+    {
+        def: "cook",
+    },
+    {
+        def: "cool",
+    },
+    {
+        def: "copper",
+    },
+    {
+        def: "corn",
+    },
+    {
+        def: "corner",
+    },
+    {
+        def: "correct",
+    },
+    {
+        def: "cost",
+    },
+    {
+        def: "contain",
+    },
+    {
+        def: "count",
+    },
+    {
+        def: "country",
+    },
+    {
+        def: "course",
+    },
+    {
+        def: "cover",
+    },
+    {
+        def: "crash",
+    },
+    {
+        def: "cross",
+    },
+    {
+        def: "cry",
+    },
+    {
+        def: "cup",
+    },
+    {
+        def: "cupboard",
+    },
+    {
+        def: "cut",
+    },
+    {
+        def: "dance",
+    },
+    {
+        def: "dangerous",
+    },
+    {
+        def: "dark",
+    },
+    {
+        def: "daughter",
+    },
+    {
+        def: "day",
+    },
+    {
+        def: "dead",
+    },
+    {
+        def: "decide",
+    },
+    {
+        def: "decrease",
+    },
+    {
+        def: "deep",
+    },
+    {
+        def: "deer",
+    },
+    {
+        def: "depend",
+    },
+    {
+        def: "desk",
+    },
+    {
+        def: "destroy",
+    },
+    {
+        def: "develop",
+    },
+    {
+        def: "die",
+    },
+    {
+        def: "different",
+    },
+    {
+        def: "difficult",
+    },
+    {
+        def: "dinner",
+    },
+    {
+        def: "direction",
+    },
+    {
+        def: "dirty",
+    },
+    {
+        def: "discover",
+    },
+    {
+        def: "dish",
+    },
+    {
+        def: "do",
+    },
+    {
+        def: "dog",
+    },
+    {
+        def: "door",
+    },
+    {
+        def: "double",
+    },
+    {
+        def: "down",
+    },
+    {
+        def: "draw",
+    },
+    {
+        def: "dream",
+    },
+    {
+        def: "dress",
+    },
+    {
+        def: "drink",
+    },
+    {
+        def: "drive",
+    },
+    {
+        def: "drop",
+    },
+    {
+        def: "dry",
+    },
+    {
+        def: "duck",
+    },
+    {
+        def: "dust",
+    },
+    {
+        def: "duty",
+    },
+    {
+        def: "each",
+    },
+    {
+        def: "ear",
+    },
+    {
+        def: "early",
+    },
+    {
+        def: "earn",
+    },
+    {
+        def: "earth",
+    },
+    {
+        def: "east",
+    },
+    {
+        def: "easy",
+    },
+    {
+        def: "eat",
+    },
+    {
+        def: "education",
+    },
+    {
+        def: "effect",
+    },
+    {
+        def: "egg",
+    },
+    {
+        def: "eight",
+    },
+    {
+        def: "either",
+    },
+    {
+        def: "electric",
+    },
+    {
+        def: "elephant",
+    },
+    {
+        def: "else",
+    },
+    {
+        def: "empty",
+    },
+    {
+        def: "end",
+    },
+    {
+        def: "enemy",
+    },
+    {
+        def: "enjoy",
+    },
+    {
+        def: "enough",
+    },
+    {
+        def: "enter",
+    },
+    {
+        def: "equal",
+    },
+    {
+        def: "entrance",
+    },
+    {
+        def: "escape",
+    },
+    {
+        def: "even",
+    },
+    {
+        def: "evening",
+    },
+    {
+        def: "event",
+    },
+    {
+        def: "ever",
+    },
+    {
+        def: "every",
+    },
+    {
+        def: "everyone",
+    },
+    {
+        def: "exact",
+    },
+    {
+        def: "everybody",
+    },
+    {
+        def: "examination",
+    },
+    {
+        def: "example",
+    },
+    {
+        def: "except",
+    },
+    {
+        def: "excited",
+    },
+    {
+        def: "exercise",
+    },
+    {
+        def: "expect",
+    },
+    {
+        def: "expensive",
+    },
+    {
+        def: "explain",
+    },
+    {
+        def: "extremely",
+    },
+    {
+        def: "eye",
+    },
+    {
+        def: "face",
+    },
+    {
+        def: "fact",
+    },
+    {
+        def: "fail",
+    },
+    {
+        def: "fall",
+    },
+    {
+        def: "false",
+    },
+    {
+        def: "family",
+    },
+    {
+        def: "famous",
+    },
+    {
+        def: "far",
+    },
+    {
+        def: "farm",
+    },
+    {
+        def: "father",
+    },
+    {
+        def: "fast",
+    },
+    {
+        def: "fat",
+    },
+    {
+        def: "fault",
+    },
+    {
+        def: "fear",
+    },
+    {
+        def: "feed",
+    },
+    {
+        def: "feel",
+    },
+    {
+        def: "female",
+    },
+    {
+        def: "fever",
+    },
+    {
+        def: "few",
+    },
+    {
+        def: "fight",
+    },
+    {
+        def: "fill",
+    },
+    {
+        def: "film",
+    },
+    {
+        def: "find",
+    },
+    {
+        def: "fine",
+    },
+    {
+        def: "finger",
+    },
+    {
+        def: "finish",
+    },
+    {
+        def: "fire",
+    },
+    {
+        def: "first",
+    },
+    {
+        def: "fit",
+    },
+    {
+        def: "five",
+    },
+    {
+        def: "fix",
+    },
+    {
+        def: "flag",
+    },
+    {
+        def: "flat",
+    },
+    {
+        def: "float",
+    },
+    {
+        def: "floor",
+    },
+    {
+        def: "flour",
+    },
+    {
+        def: "flower",
+    },
+    {
+        def: "fly",
+    },
+    {
+        def: "fold",
+    },
+    {
+        def: "follow",
+    },
+    {
+        def: "food",
+    },
+    {
+        def: "fool",
+    },
+    {
+        def: "foot",
+    },
+    {
+        def: "football",
+    },
+    {
+        def: "for",
+    },
+    {
+        def: "force",
+    },
+    {
+        def: "foreign",
+    },
+    {
+        def: "forest",
+    },
+    {
+        def: "forget",
+    },
+    {
+        def: "forgive",
+    },
+    {
+        def: "fork",
+    },
+    {
+        def: "form",
+    },
+    {
+        def: "fox",
+    },
+    {
+        def: "four",
+    },
+    {
+        def: "free",
+    },
+    {
+        def: "freedom",
+    },
+    {
+        def: "freeze",
+    },
+    {
+        def: "fresh",
+    },
+    {
+        def: "friend",
+    },
+    {
+        def: "friendly",
+    },
+    {
+        def: "from",
+    },
+    {
+        def: "front",
+    },
+    {
+        def: "fruit",
+    },
+    {
+        def: "full",
+    },
+    {
+        def: "fun",
+    },
+    {
+        def: "funny",
+    },
+    {
+        def: "furniture",
+    },
+    {
+        def: "further",
+    },
+    {
+        def: "future",
+    },
+    {
+        def: "game",
+    },
+    {
+        def: "garden",
+    },
+    {
+        def: "gate",
+    },
+    {
+        def: "general",
+    },
+    {
+        def: "gentleman",
+    },
+    {
+        def: "get",
+    },
+    {
+        def: "gift",
+    },
+    {
+        def: "give",
+    },
+    {
+        def: "glad",
+    },
+    {
+        def: "glass",
+    },
+    {
+        def: "go",
+    },
+    {
+        def: "goat",
+    },
+    {
+        def: "god",
+    },
+    {
+        def: "gold",
+    },
+    {
+        def: "good",
+    },
+    {
+        def: "goodbye",
+    },
+    {
+        def: "grandfather",
+    },
+    {
+        def: "grandmother",
+    },
+    {
+        def: "grass",
+    },
+    {
+        def: "grave",
+    },
+    {
+        def: "great",
+    },
+    {
+        def: "green",
+    },
+    {
+        def: "grey",
+    },
+    {
+        def: "ground",
+    },
+    {
+        def: "group",
+    },
+    {
+        def: "grow",
+    },
+    {
+        def: "gun",
+    },
+    {
+        def: "hair",
+    },
+    {
+        def: "half",
+    },
+    {
+        def: "hall",
+    },
+    {
+        def: "hammer",
+    },
+    {
+        def: "hand",
+    },
+    {
+        def: "happen",
+    },
+    {
+        def: "happy",
+    },
+    {
+        def: "hard",
+    },
+    {
+        def: "hat",
+    },
+    {
+        def: "hate",
+    },
+    {
+        def: "have",
+    },
+    {
+        def: "he",
+    },
+    {
+        def: "head",
+    },
+    {
+        def: "healthy",
+    },
+    {
+        def: "hear",
+    },
+    {
+        def: "heavy",
+    },
+    {
+        def: "hello",
+    },
+    {
+        def: "help",
+    },
+    {
+        def: "heart",
+    },
+    {
+        def: "heaven",
+    },
+    {
+        def: "height",
+    },
+    {
+        def: "help",
+    },
+    {
+        def: "hen",
+    },
+    {
+        def: "her",
+    },
+    {
+        def: "here",
+    },
+    {
+        def: "hers",
+    },
+    {
+        def: "hide",
+    },
+    {
+        def: "high",
+    },
+    {
+        def: "hill",
+    },
+    {
+        def: "him",
+    },
+    {
+        def: "his",
+    },
+    {
+        def: "hit",
+    },
+    {
+        def: "hobby",
+    },
+    {
+        def: "hold",
+    },
+    {
+        def: "hole",
+    },
+    {
+        def: "holiday",
+    },
+    {
+        def: "home",
+    },
+    {
+        def: "hope",
+    },
+    {
+        def: "horse",
+    },
+    {
+        def: "hospital",
+    },
+    {
+        def: "hot",
+    },
+    {
+        def: "hotel",
+    },
+    {
+        def: "house",
+    },
+    {
+        def: "how",
+    },
+    {
+        def: "hundred",
+    },
+    {
+        def: "hungry",
+    },
+    {
+        def: "hour",
+    },
+    {
+        def: "hurry",
+    },
+    {
+        def: "husband",
+    },
+    {
+        def: "hurt",
+    },
+    {
+        def: "I",
+    },
+    {
+        def: "ice",
+    },
+    {
+        def: "idea",
+    },
+    {
+        def: "if",
+    },
+    {
+        def: "important",
+    },
+    {
+        def: "in",
+    },
+    {
+        def: "increase",
+    },
+    {
+        def: "inside",
+    },
+    {
+        def: "into",
+    },
+    {
+        def: "introduce",
+    },
+    {
+        def: "invent",
+    },
+    {
+        def: "iron",
+    },
+    {
+        def: "invite",
+    },
+    {
+        def: "is",
+    },
+    {
+        def: "island",
+    },
+    {
+        def: "it",
+    },
+    {
+        def: "its",
+    },
+    {
+        def: "jelly",
+    },
+    {
+        def: "job",
+    },
+    {
+        def: "join",
+    },
+    {
+        def: "juice",
+    },
+    {
+        def: "jump",
+    },
+    {
+        def: "just",
+    },
+    {
+        def: "keep",
+    },
+    {
+        def: "key",
+    },
+    {
+        def: "kill",
+    },
+    {
+        def: "kind",
+    },
+    {
+        def: "king",
+    },
+    {
+        def: "kitchen",
+    },
+    {
+        def: "knee",
+    },
+    {
+        def: "knife",
+    },
+    {
+        def: "knock",
+    },
+    {
+        def: "know",
+    },
+    {
+        def: "ladder",
+    },
+    {
+        def: "lady",
+    },
+    {
+        def: "lamp",
+    },
+    {
+        def: "land",
+    },
+    {
+        def: "large",
+    },
+    {
+        def: "last",
+    },
+    {
+        def: "late",
+    },
+    {
+        def: "lately",
+    },
+    {
+        def: "laugh",
+    },
+    {
+        def: "lazy",
+    },
+    {
+        def: "lead",
+    },
+    {
+        def: "leaf",
+    },
+    {
+        def: "learn",
+    },
+    {
+        def: "leave",
+    },
+    {
+        def: "leg",
+    },
+    {
+        def: "left",
+    },
+    {
+        def: "lend",
+    },
+    {
+        def: "length",
+    },
+    {
+        def: "less",
+    },
+    {
+        def: "lesson",
+    },
+    {
+        def: "let",
+    },
+    {
+        def: "letter",
+    },
+    {
+        def: "library",
+    },
+    {
+        def: "lie",
+    },
+    {
+        def: "life",
+    },
+    {
+        def: "light",
+    },
+    {
+        def: "like",
+    },
+    {
+        def: "lion",
+    },
+    {
+        def: "lip",
+    },
+    {
+        def: "list",
+    },
+    {
+        def: "listen",
+    },
+    {
+        def: "little",
+    },
+    {
+        def: "live",
+    },
+    {
+        def: "lock",
+    },
+    {
+        def: "lonely",
+    },
+    {
+        def: "long",
+    },
+    {
+        def: "look",
+    },
+    {
+        def: "lose",
+    },
+    {
+        def: "lot",
+    },
+    {
+        def: "love",
+    },
+    {
+        def: "low",
+    },
+    {
+        def: "lower",
+    },
+    {
+        def: "luck",
+    },
+    {
+        def: "machine",
+    },
+    {
+        def: "main",
+    },
+    {
+        def: "make",
+    },
+    {
+        def: "male",
+    },
+    {
+        def: "man",
+    },
+    {
+        def: "many",
+    },
+    {
+        def: "map",
+    },
+    {
+        def: "mark",
+    },
+    {
+        def: "market",
+    },
+    {
+        def: "marry",
+    },
+    {
+        def: "matter",
+    },
+    {
+        def: "may",
+    },
+    {
+        def: "me",
+    },
+    {
+        def: "meal",
+    },
+    {
+        def: "mean",
+    },
+    {
+        def: "measure",
+    },
+    {
+        def: "meat",
+    },
+    {
+        def: "medicine",
+    },
+    {
+        def: "meet",
+    },
+    {
+        def: "member",
+    },
+    {
+        def: "mention",
+    },
+    {
+        def: "method",
+    },
+    {
+        def: "middle",
+    },
+    {
+        def: "milk",
+    },
+    {
+        def: "million",
+    },
+    {
+        def: "mind",
+    },
+    {
+        def: "minute",
+    },
+    {
+        def: "miss",
+    },
+    {
+        def: "mistake",
+    },
+    {
+        def: "mix",
+    },
+    {
+        def: "model",
+    },
+    {
+        def: "modern",
+    },
+    {
+        def: "moment",
+    },
+    {
+        def: "money",
+    },
+    {
+        def: "monkey",
+    },
+    {
+        def: "month",
+    },
+    {
+        def: "moon",
+    },
+    {
+        def: "more",
+    },
+    {
+        def: "morning",
+    },
+    {
+        def: "most",
+    },
+    {
+        def: "mother",
+    },
+    {
+        def: "mountain",
+    },
+    {
+        def: "mouth",
+    },
+    {
+        def: "move",
+    },
+    {
+        def: "much",
+    },
+    {
+        def: "music",
+    },
+    {
+        def: "must",
+    },
+    {
+        def: "my",
+    },
+    {
+        def: "name",
+    },
+    {
+        def: "narrow",
+    },
+    {
+        def: "nation",
+    },
+    {
+        def: "nature",
+    },
+    {
+        def: "near",
+    },
+    {
+        def: "nearly",
+    },
+    {
+        def: "neck",
+    },
+    {
+        def: "need",
+    },
+    {
+        def: "needle",
+    },
+    {
+        def: "neighbour",
+    },
+    {
+        def: "neither",
+    },
+    {
+        def: "net",
+    },
+    {
+        def: "never",
+    },
+    {
+        def: "new",
+    },
+    {
+        def: "news",
+    },
+    {
+        def: "newspaper",
+    },
+    {
+        def: "next",
+    },
+    {
+        def: "nice",
+    },
+    {
+        def: "night",
+    },
+    {
+        def: "nine",
+    },
+    {
+        def: "no",
+    },
+    {
+        def: "noble",
+    },
+    {
+        def: "noise",
+    },
+    {
+        def: "none",
+    },
+    {
+        def: "nor",
+    },
+    {
+        def: "north",
+    },
+    {
+        def: "nose",
+    },
+    {
+        def: "not",
+    },
+    {
+        def: "nothing",
+    },
+    {
+        def: "notice",
+    },
+    {
+        def: "now",
+    },
+    {
+        def: "number",
+    },
+    {
+        def: "obey",
+    },
+    {
+        def: "object",
+    },
+    {
+        def: "ocean",
+    },
+    {
+        def: "of",
+    },
+    {
+        def: "off",
+    },
+    {
+        def: "offer",
+    },
+    {
+        def: "office",
+    },
+    {
+        def: "often",
+    },
+    {
+        def: "oil",
+    },
+    {
+        def: "old",
+    },
+    {
+        def: "on",
+    },
+    {
+        def: "one",
+    },
+    {
+        def: "only",
+    },
+    {
+        def: "open",
+    },
+    {
+        def: "opposite",
+    },
+    {
+        def: "or",
+    },
+    {
+        def: "orange",
+    },
+    {
+        def: "order",
+    },
+    {
+        def: "other",
+    },
+    {
+        def: "our",
+    },
+    {
+        def: "out",
+    },
+    {
+        def: "outside",
+    },
+    {
+        def: "over",
+    },
+    {
+        def: "own",
+    },
+    {
+        def: "page",
+    },
+    {
+        def: "pain",
+    },
+    {
+        def: "paint",
+    },
+    {
+        def: "pair",
+    },
+    {
+        def: "pan",
+    },
+    {
+        def: "paper",
+    },
+    {
+        def: "parent",
+    },
+    {
+        def: "park",
+    },
+    {
+        def: "part",
+    },
+    {
+        def: "partner",
+    },
+    {
+        def: "party",
+    },
+    {
+        def: "pass",
+    },
+    {
+        def: "past",
+    },
+    {
+        def: "path",
+    },
+    {
+        def: "pay",
+    },
+    {
+        def: "peace",
+    },
+    {
+        def: "pen",
+    },
+    {
+        def: "pencil",
+    },
+    {
+        def: "people",
+    },
+    {
+        def: "pepper",
+    },
+    {
+        def: "per",
+    },
+    {
+        def: "perfect",
+    },
+    {
+        def: "period",
+    },
+    {
+        def: "person",
+    },
+    {
+        def: "petrol",
+    },
+    {
+        def: "photograph",
+    },
+    {
+        def: "piano",
+    },
+    {
+        def: "pick",
+    },
+    {
+        def: "picture",
+    },
+    {
+        def: "piece",
+    },
+    {
+        def: "pig",
+    },
+    {
+        def: "pin",
+    },
+    {
+        def: "pink",
+    },
+    {
+        def: "place",
+    },
+    {
+        def: "plane",
+    },
+    {
+        def: "plant",
+    },
+    {
+        def: "plastic",
+    },
+    {
+        def: "plate",
+    },
+    {
+        def: "play",
+    },
+    {
+        def: "please",
+    },
+    {
+        def: "pleased",
+    },
+    {
+        def: "plenty",
+    },
+    {
+        def: "pocket",
+    },
+    {
+        def: "point",
+    },
+    {
+        def: "poison",
+    },
+    {
+        def: "police",
+    },
+    {
+        def: "polite",
+    },
+    {
+        def: "pool",
+    },
+    {
+        def: "poor",
+    },
+    {
+        def: "popular",
+    },
+    {
+        def: "position",
+    },
+    {
+        def: "possible",
+    },
+    {
+        def: "potato",
+    },
+    {
+        def: "pour",
+    },
+    {
+        def: "power",
+    },
+    {
+        def: "present",
+    },
+    {
+        def: "press",
+    },
+    {
+        def: "pretty",
+    },
+    {
+        def: "prevent",
+    },
+    {
+        def: "price",
+    },
+    {
+        def: "prince",
+    },
+    {
+        def: "prison",
+    },
+    {
+        def: "private",
+    },
+    {
+        def: "prize",
+    },
+    {
+        def: "probably",
+    },
+    {
+        def: "problem",
+    },
+    {
+        def: "produce",
+    },
+    {
+        def: "promise",
+    },
+    {
+        def: "proper",
+    },
+    {
+        def: "protect",
+    },
+    {
+        def: "provide",
+    },
+    {
+        def: "public",
+    },
+    {
+        def: "pull",
+    },
+    {
+        def: "punish",
+    },
+    {
+        def: "pupil",
+    },
+    {
+        def: "push",
+    },
+    {
+        def: "put",
+    },
+    {
+        def: "queen",
+    },
+    {
+        def: "question",
+    },
+    {
+        def: "quick",
+    },
+    {
+        def: "quiet",
+    },
+    {
+        def: "quite",
+    },
+    {
+        def: "radio",
+    },
+    {
+        def: "rain",
+    },
+    {
+        def: "rainy",
+    },
+    {
+        def: "raise",
+    },
+    {
+        def: "reach",
+    },
+    {
+        def: "read",
+    },
+    {
+        def: "ready",
+    },
+    {
+        def: "real",
+    },
+    {
+        def: "really",
+    },
+    {
+        def: "receive",
+    },
+    {
+        def: "record",
+    },
+    {
+        def: "red",
+    },
+    {
+        def: "remember",
+    },
+    {
+        def: "remind",
+    },
+    {
+        def: "remove",
+    },
+    {
+        def: "rent",
+    },
+    {
+        def: "repair",
+    },
+    {
+        def: "repeat",
+    },
+    {
+        def: "reply",
+    },
+    {
+        def: "report",
+    },
+    {
+        def: "rest",
+    },
+    {
+        def: "restaurant",
+    },
+    {
+        def: "result",
+    },
+    {
+        def: "return",
+    },
+    {
+        def: "rice",
+    },
+    {
+        def: "rich",
+    },
+    {
+        def: "ride",
+    },
+    {
+        def: "right",
+    },
+    {
+        def: "ring",
+    },
+    {
+        def: "rise",
+    },
+    {
+        def: "road",
+    },
+    {
+        def: "rob",
+    },
+    {
+        def: "rock",
+    },
+    {
+        def: "room",
+    },
+    {
+        def: "round",
+    },
+    {
+        def: "rubber",
+    },
+    {
+        def: "rude",
+    },
+    {
+        def: "rule",
+    },
+    {
+        def: "ruler",
+    },
+    {
+        def: "run",
+    },
+    {
+        def: "rush",
+    },
+    {
+        def: "sad",
+    },
+    {
+        def: "safe",
+    },
+    {
+        def: "sail",
+    },
+    {
+        def: "salt",
+    },
+    {
+        def: "same",
+    },
+    {
+        def: "sand",
+    },
+    {
+        def: "save",
+    },
+    {
+        def: "say",
+    },
+    {
+        def: "school",
+    },
+    {
+        def: "science",
+    },
+    {
+        def: "scissors",
+    },
+    {
+        def: "search",
+    },
+    {
+        def: "seat",
+    },
+    {
+        def: "second",
+    },
+    {
+        def: "see",
+    },
+    {
+        def: "seem",
+    },
+    {
+        def: "sell",
+    },
+    {
+        def: "send",
+    },
+    {
+        def: "sentence",
+    },
+    {
+        def: "serve",
+    },
+    {
+        def: "seven",
+    },
+    {
+        def: "several",
+    },
+    {
+        def: "sex",
+    },
+    {
+        def: "shade",
+    },
+    {
+        def: "shadow",
+    },
+    {
+        def: "shake",
+    },
+    {
+        def: "shape",
+    },
+    {
+        def: "share",
+    },
+    {
+        def: "sharp",
+    },
+    {
+        def: "she",
+    },
+    {
+        def: "sheep",
+    },
+    {
+        def: "sheet",
+    },
+    {
+        def: "shelf",
+    },
+    {
+        def: "shine",
+    },
+    {
+        def: "ship",
+    },
+    {
+        def: "shirt",
+    },
+    {
+        def: "shoe",
+    },
+    {
+        def: "shoot",
+    },
+    {
+        def: "shop",
+    },
+    {
+        def: "short",
+    },
+    {
+        def: "should",
+    },
+    {
+        def: "shoulder",
+    },
+    {
+        def: "shout",
+    },
+    {
+        def: "show",
+    },
+    {
+        def: "sick",
+    },
+    {
+        def: "side",
+    },
+    {
+        def: "signal",
+    },
+    {
+        def: "silence",
+    },
+    {
+        def: "silly",
+    },
+    {
+        def: "silver",
+    },
+    {
+        def: "similar",
+    },
+    {
+        def: "simple",
+    },
+    {
+        def: "single",
+    },
+    {
+        def: "since",
+    },
+    {
+        def: "sing",
+    },
+    {
+        def: "sink",
+    },
+    {
+        def: "sister",
+    },
+    {
+        def: "sit",
+    },
+    {
+        def: "six",
+    },
+    {
+        def: "size",
+    },
+    {
+        def: "skill",
+    },
+    {
+        def: "skin",
+    },
+    {
+        def: "skirt",
+    },
+    {
+        def: "sky",
+    },
+    {
+        def: "sleep",
+    },
+    {
+        def: "slip",
+    },
+    {
+        def: "slow",
+    },
+    {
+        def: "smoke",
+    },
+    {
+        def: "small",
+    },
+    {
+        def: "smell",
+    },
+    {
+        def: "smile",
+    },
+    {
+        def: "smoke",
+    },
+    {
+        def: "snow",
+    },
+    {
+        def: "so",
+    },
+    {
+        def: "soap",
+    },
+    {
+        def: "sock",
+    },
+    {
+        def: "soft",
+    },
+    {
+        def: "some",
+    },
+    {
+        def: "someone",
+    },
+    {
+        def: "something",
+    },
+    {
+        def: "sometimes",
+    },
+    {
+        def: "son",
+    },
+    {
+        def: "soon",
+    },
+    {
+        def: "sorry",
+    },
+    {
+        def: "sound",
+    },
+    {
+        def: "soup",
+    },
+    {
+        def: "south",
+    },
+    {
+        def: "space",
+    },
+    {
+        def: "speak",
+    },
+    {
+        def: "special",
+    },
+    {
+        def: "speed",
+    },
+    {
+        def: "spell",
+    },
+    {
+        def: "spend",
+    },
+    {
+        def: "spoon",
+    },
+    {
+        def: "sport",
+    },
+    {
+        def: "spread",
+    },
+    {
+        def: "spring",
+    },
+    {
+        def: "square",
+    },
+    {
+        def: "stamp",
+    },
+    {
+        def: "stand",
+    },
+    {
+        def: "star",
+    },
+    {
+        def: "start",
+    },
+    {
+        def: "station",
+    },
+    {
+        def: "stay",
+    },
+    {
+        def: "steal",
+    },
+    {
+        def: "steam",
+    },
+    {
+        def: "step",
+    },
+    {
+        def: "still",
+    },
+    {
+        def: "stomach",
+    },
+    {
+        def: "stone",
+    },
+    {
+        def: "stop",
+    },
+    {
+        def: "store",
+    },
+    {
+        def: "storm",
+    },
+    {
+        def: "story",
+    },
+    {
+        def: "strange",
+    },
+    {
+        def: "street",
+    },
+    {
+        def: "strong",
+    },
+    {
+        def: "structure",
+    },
+    {
+        def: "student",
+    },
+    {
+        def: "study",
+    },
+    {
+        def: "stupid",
+    },
+    {
+        def: "subject",
+    },
+    {
+        def: "substance",
+    },
+    {
+        def: "successful",
+    },
+    {
+        def: "such",
+    },
+    {
+        def: "sudden",
+    },
+    {
+        def: "sugar",
+    },
+    {
+        def: "suitable",
+    },
+    {
+        def: "summer",
+    },
+    {
+        def: "sun",
+    },
+    {
+        def: "sunny",
+    },
+    {
+        def: "support",
+    },
+    {
+        def: "sure",
+    },
+    {
+        def: "surprise",
+    },
+    {
+        def: "sweet",
+    },
+    {
+        def: "swim",
+    },
+    {
+        def: "sword",
+    },
+    {
+        def: "table",
+    },
+    {
+        def: "take",
+    },
+    {
+        def: "talk",
+    },
+    {
+        def: "tall",
+    },
+    {
+        def: "taste",
+    },
+    {
+        def: "taxi",
+    },
+    {
+        def: "tea",
+    },
+    {
+        def: "teach",
+    },
+    {
+        def: "team",
+    },
+    {
+        def: "tear",
+    },
+    {
+        def: "telephone",
+    },
+    {
+        def: "television",
+    },
+    {
+        def: "tell",
+    },
+    {
+        def: "ten",
+    },
+    {
+        def: "tennis",
+    },
+    {
+        def: "terrible",
+    },
+    {
+        def: "test",
+    },
+    {
+        def: "than",
+    },
+    {
+        def: "that",
+    },
+    {
+        def: "the",
+    },
+    {
+        def: "their",
+    },
+    {
+        def: "then",
+    },
+    {
+        def: "there",
+    },
+    {
+        def: "therefore",
+    },
+    {
+        def: "these",
+    },
+    {
+        def: "thick",
+    },
+    {
+        def: "thin",
+    },
+    {
+        def: "thing",
+    },
+    {
+        def: "think",
+    },
+    {
+        def: "third",
+    },
+    {
+        def: "this",
+    },
+    {
+        def: "though",
+    },
+    {
+        def: "threat",
+    },
+    {
+        def: "three",
+    },
+    {
+        def: "tidy",
+    },
+    {
+        def: "tie",
+    },
+    {
+        def: "title",
+    },
+    {
+        def: "to",
+    },
+    {
+        def: "today",
+    },
+    {
+        def: "toe",
+    },
+    {
+        def: "together",
+    },
+    {
+        def: "tomorrow",
+    },
+    {
+        def: "tonight",
+    },
+    {
+        def: "too",
+    },
+    {
+        def: "tool",
+    },
+    {
+        def: "tooth",
+    },
+    {
+        def: "top",
+    },
+    {
+        def: "total",
+    },
+    {
+        def: "touch",
+    },
+    {
+        def: "town",
+    },
+    {
+        def: "train",
+    },
+    {
+        def: "tram",
+    },
+    {
+        def: "travel",
+    },
+    {
+        def: "tree",
+    },
+    {
+        def: "trouble",
+    },
+    {
+        def: "true",
+    },
+    {
+        def: "trust",
+    },
+    {
+        def: "twice",
+    },
+    {
+        def: "try",
+    },
+    {
+        def: "turn",
+    },
+    {
+        def: "type",
+    },
+    {
+        def: "uncle",
+    },
+    {
+        def: "under",
+    },
+    {
+        def: "understand",
+    },
+    {
+        def: "unit",
+    },
+    {
+        def: "until",
+    },
+    {
+        def: "up",
+    },
+    {
+        def: "use",
+    },
+    {
+        def: "useful",
+    },
+    {
+        def: "usual",
+    },
+    {
+        def: "usually",
+    },
+    {
+        def: "vegetable",
+    },
+    {
+        def: "very",
+    },
+    {
+        def: "village",
+    },
+    {
+        def: "voice",
+    },
+    {
+        def: "visit",
+    },
+    {
+        def: "wait",
+    },
+    {
+        def: "wake",
+    },
+    {
+        def: "walk",
+    },
+    {
+        def: "want",
+    },
+    {
+        def: "warm",
+    },
+    {
+        def: "wash",
+    },
+    {
+        def: "waste",
+    },
+    {
+        def: "watch",
+    },
+    {
+        def: "water",
+    },
+    {
+        def: "way",
+    },
+    {
+        def: "we",
+    },
+    {
+        def: "weak",
+    },
+    {
+        def: "wear",
+    },
+    {
+        def: "weather",
+    },
+    {
+        def: "wedding",
+    },
+    {
+        def: "week",
+    },
+    {
+        def: "weight",
+    },
+    {
+        def: "welcome",
+    },
+    {
+        def: "well",
+    },
+    {
+        def: "west",
+    },
+    {
+        def: "wet",
+    },
+    {
+        def: "what",
+    },
+    {
+        def: "wheel",
+    },
+    {
+        def: "when",
+    },
+    {
+        def: "where",
+    },
+    {
+        def: "which",
+    },
+    {
+        def: "while",
+    },
+    {
+        def: "white",
+    },
+    {
+        def: "who",
+    },
+    {
+        def: "why",
+    },
+    {
+        def: "wide",
+    },
+    {
+        def: "wife",
+    },
+    {
+        def: "wild",
+    },
+    {
+        def: "will",
+    },
+    {
+        def: "win",
+    },
+    {
+        def: "wind",
+    },
+    {
+        def: "window",
+    },
+    {
+        def: "wine",
+    },
+    {
+        def: "winter",
+    },
+    {
+        def: "wire",
+    },
+    {
+        def: "wise",
+    },
+    {
+        def: "wish",
+    },
+    {
+        def: "with",
+    },
+    {
+        def: "without",
+    },
+    {
+        def: "woman",
+    },
+    {
+        def: "wonder",
+    },
+    {
+        def: "word",
+    },
+    {
+        def: "work",
+    },
+    {
+        def: "world",
+    },
+    {
+        def: "worry",
+    },
+    {
+        def: "worst",
+    },
+    {
+        def: "write",
+    },
+    {
+        def: "wrong",
+    },
+    {
+        def: "year",
+    },
+    {
+        def: "yes",
+    },
+    {
+        def: "yesterday",
+    },
+    {
+        def: "yet",
+    },
+    {
+        def: "you",
+    },
+    {
+        def: "young",
+    },
+    {
+        def: "your",
+    },
+    {
+        def: "zero",
+    },
+    {
+        def: "zoo",
+    },
+]
 

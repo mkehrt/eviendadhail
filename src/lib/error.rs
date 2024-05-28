@@ -1,9 +1,10 @@
-use {crate::serde, crate::types, serde_yaml, std::io};
+use {crate::serde, crate::types, std::io};
 
 #[derive(Debug)]
 pub enum LexiconError {
-    SerdeYaml(serde_yaml::Error),
     SerdeJson5(serde_json5::Error),
+    FormatJson5(json5format::Error),
+    UnexpectedJson5Element,
     IncompleteEntry(types::Entry),
     IoError(io::Error),
     InvalidAscii(serde::Entry),
@@ -15,9 +16,9 @@ impl From<serde_json5::Error> for LexiconError {
     }
 }
 
-impl From<serde_yaml::Error> for LexiconError {
-    fn from(err: serde_yaml::Error) -> Self {
-        Self::SerdeYaml(err)
+impl From<json5format::Error> for LexiconError {
+    fn from(err: json5format::Error) -> Self {
+        Self::FormatJson5(err)
     }
 }
 

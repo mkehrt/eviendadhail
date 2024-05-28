@@ -78,7 +78,7 @@ impl PartialOrd for Entry {
 pub fn serde_entries_from_reader<R: io::Read>(
     reader: &mut R,
 ) -> Result<Vec<Entry>, error::LexiconError> {
-    let serde_entries: Vec<Entry> = serde_yaml::from_reader(reader)?;
+    let serde_entries: Vec<Entry> = serde_json5::from_reader(reader)?;
     for serde_entry in serde_entries.iter() {
         if !serde_entry.is_ascii() {
             return Err(error::LexiconError::InvalidAscii(serde_entry.clone()));

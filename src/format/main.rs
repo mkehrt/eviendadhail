@@ -2,10 +2,12 @@ use {
     argh, lexicon::error, lexicon::serde, std::fs::File, std::io::Write as _, std::path::PathBuf,
 };
 
+mod format;
+
 #[derive(argh::FromArgs)]
-/// In place reformat a YAML file
+/// In place reformat a json5 file
 struct Args {
-    /// file containing YAML.
+    /// file containing json5.
     #[argh(option)]
     words: PathBuf,
 }
@@ -18,13 +20,12 @@ fn main() -> Result<(), error::LexiconError> {
     drop(words_file);
 
     entries.sort();
+    let json5_entries = serde_json5::to_string(&entries)?;
+
+    let formatted_json5_entries = format::format(&json5_entries)?;
 
     let mut words_file = File::create(&args.words)?;
-    for entry in entries {
-        let yaml_entry = serde_json5::to_string(&entry)?;
-        writeln!(words_file, "{:}", yaml_entry)?;
-        writeln!(words_file, "",)?;
-    }
+    writeln!(words_file, "{:}", formatted_json5_entries)?;
 
     Ok(())
 }
