@@ -36,6 +36,7 @@ impl Entry {
         self.word.is_some()
             && self.word.as_ref().unwrap().len() > 0
             && self.pos.is_some()
+            && self.pos.as_ref().unwrap().len() > 0
             && self.defs_are_valid()
         // Etym is not a necessary field.
         // Notes is not a necessary field.

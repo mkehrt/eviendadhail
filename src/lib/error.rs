@@ -4,7 +4,6 @@ use {crate::serde, crate::types, std::io};
 pub enum LexiconError {
     SerdeJson5(serde_json5::Error),
     FormatJson5(json5format::Error),
-    UnexpectedJson5Element,
     IncompleteEntry(types::Entry),
     IoError(io::Error),
     InvalidAscii(serde::Entry),
